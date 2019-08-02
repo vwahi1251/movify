@@ -1,0 +1,5312 @@
+img
+  max-width: 100%
+  height: 60%
+
+.video
+  background: #fff
+  padding-bottom: 20px
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)
+  width: 31.33%
+  /* Thumbnails 4 across
+  margin: 1%
+  float: left
+  figure
+    height: 80%
+    overflow: hidden
+    a
+      display: block
+      margin: 0
+      padding: 0
+      border: none
+      line-height: 0
+  img
+    width: 100%
+    opacity: 1
+    &:hover, &:active, &:focus
+      opacity: 0.75
+
+/* 
+ *These keep the height of each video thumbnail consistent between YouTube and Vimeo.
+ *Each can have thumbnail sizes that vary by 1px and are likely break your layout.
+
+/* Media Queries - This is the responsive grid.
+
+@media (max-width: 1024px)
+  .pagination li
+    color: black
+    float: left
+    padding: 4px
+    text-decoration: none
+  .video
+    width: 96%
+    /* Single column view.
+    float: none
+    display: block
+  body
+    padding: 0 4%
+
+/* These are my preferred rollover styles.
+
+/*--------------------------------------------------------------
+ *	# RESET CSS
+ *--------------------------------------------------------------
+
+*, body
+  outline: none
+
+*, body
+  font-family: quicksand,sans-serif
+
+*, ::after, ::before
+  box-sizing: border-box
+
+user agent stylesheet div
+  display: block
+
+*, body, *, body, *, body, *, body, *, body, *
+  font-family: quicksand,sans-serif
+
+body
+  font-family: quicksand,sans-serif
+  overflow-x: hidden
+  font-weight: 300
+
+html, body
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0 !important
+  font-family: quicksand,sans-serif
+  background: #fff
+
+*
+  font-family: quicksand,sans-serif
+
+body
+  font-family: quicksand,sans-serif
+  margin: 0
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+  font-size: 1rem
+  font-weight: 400
+  line-height: 1.5
+  color: #212529
+  text-align: left
+  background-color: #fff
+
+html, body
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0 !important
+  font-family: quicksand,sans-serif
+  background: #fff
+
+html
+  font-family: sans-serif
+  line-height: 1.15
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  -ms-overflow-style: scrollbar
+  -webkit-tap-highlight-color: transparent
+
+*, body
+  font-family: quicksand,sans-serif
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+
+html, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  padding: 0
+  border: 0
+  font: inherit
+  /*vertical-align: baseline;
+
+html
+  box-sizing: border-box
+
+*
+  box-sizing: inherit
+  &:before, &:after
+    box-sizing: inherit
+
+audio, canvas, progress, video
+  display: inline-block
+  vertical-align: baseline
+
+audio:not([controls])
+  display: none
+  height: 0
+
+[hidden], template
+  display: none
+
+#details
+  background-color: #9356b2
+  border-radius: 35px
+  &:hover
+    opacity: 0.8
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary
+  display: block
+
+aside
+  padding-bottom: 2.5rem
+  position: absolute
+  bottom: 0
+  width: 100%
+  height: 2.5rem
+
+body
+  -webkit-font-smoothing: antialiased
+  -moz-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale
+  text-rendering: optimizeLegibility
+
+blockquote
+  quotes: none
+  &::before, &::after
+    content: ''
+    content: none
+  cite
+    font-weight: 400
+    font-style: normal
+    text-transform: uppercase
+    letter-spacing: 2px
+    font-size: 0.7em
+
+table
+  max-width: 100%
+  margin: 0 0 1.5em
+  border-collapse: collapse
+  border-spacing: 0
+
+/*--------------------------------------------------------------
+ *	# THEME SPECIFIC DEFAULTS
+ *--------------------------------------------------------------
+
+html
+  line-height: 1.8
+
+body
+  font-size: 1em
+
+h1, h2, h3, h4, h5, h6
+  clear: both
+  font-weight: normal
+
+pre
+  padding: 1em
+  max-width: 100%
+  overflow: auto
+  font-family: "Courier 10 Pitch", Courier, monospace
+  border: 1px solid transparent
+
+kbd, tt, var, code
+  padding: 0 5px
+  overflow: auto
+  vertical-align: middle
+  text-indent: 0
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace
+
+q, blockquote
+  font-size: 1.1em
+  font-family: Georgia, "Bitstream Charter", serif
+
+address
+  padding-left: 1em
+
+del
+  text-decoration: line-through
+
+img
+  height: auto
+  /* Make sure images are scaled correctly.
+  max-width: 100%
+  /* Adhere to container width.
+  border: 0
+  position: relative
+
+a img
+  max-width: 200px
+  border: none
+  vertical-align: middle
+
+#movie1
+  padding: 0 10%
+  img
+    width: 35%
+    top: -120px
+
+hr
+  height: 1px
+  border: 0
+  clear: both
+
+/* Text elements
+
+.main li >
+  ul, ol
+    margin-bottom: 0
+    margin-left: 2em
+
+ul
+  list-style-type: disc
+  ul
+    list-style-type: square
+    ul
+      list-style-type: circle
+
+ol
+  list-style-type: decimal
+  ol
+    list-style-type: upper-alpha
+    ol
+      list-style-type: lower-roman
+      ol
+        list-style-type: lower-alpha
+
+dl
+  margin: 0 0 2em 0
+
+dt, strong
+  font-weight: bold
+
+dfn, cite, em, i
+  font-style: italic
+
+big
+  font-size: 125%
+
+mark, ins
+  text-decoration: none
+
+abbr, acronym
+  border-bottom: 1px dotted
+  cursor: help
+
+sup, sub
+  position: relative
+  vertical-align: baseline
+  font-size: .8em
+  line-height: 0
+
+sup
+  top: -0.5em
+
+sub
+  bottom: -0.25em
+
+textarea, select
+  max-width: 100%
+  padding: .7em 1em
+  border: 1px solid transparent
+  background: transparent
+  font-size: inherit
+  font-family: inherit
+  -webkit-transition: border-top-color .3s .1s, border-bottom-color .3s .3s, border-left-color .3s 0s, border-right-color .3s .2s
+  transition: border-top-color .3s .1s, border-bottom-color .3s .3s, border-left-color .3s 0s, border-right-color .3s .2s
+
+input
+  &[type="text"], &[type="password"], &[type="email"], &[type="color"], &[type="date"], &[type="datetime"], &[type="datetime-local"], &[type="month"], &[type="number"], &[type="range"], &[type="search"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+    max-width: 100%
+    padding: .7em 1em
+    border: 1px solid transparent
+    background: transparent
+    font-size: inherit
+    font-family: inherit
+    -webkit-transition: border-top-color .3s .1s, border-bottom-color .3s .3s, border-left-color .3s 0s, border-right-color .3s .2s
+    transition: border-top-color .3s .1s, border-bottom-color .3s .3s, border-left-color .3s 0s, border-right-color .3s .2s
+  &[type="file"]
+    font-size: initial
+
+button
+  padding: .7em 1.5em
+  border: 0
+  font-size: .9em
+  font-family: inherit
+  -webkit-transition: background-color .3s ease-in-out
+  transition: background-color .3s ease-in-out
+
+input
+  &[type="button"], &[type="submit"], &[type="reset"]
+    padding: .7em 1.5em
+    border: 0
+    font-size: .9em
+    font-family: inherit
+    -webkit-transition: background-color .3s ease-in-out
+    transition: background-color .3s ease-in-out
+
+button[disabled], html input[disabled]
+  cursor: default
+
+button::-moz-focus-inner
+  border: 0
+  padding: 0
+
+input
+  &::-moz-focus-inner
+    border: 0
+    padding: 0
+  &:focus
+    outline: none
+
+textarea:focus, button:focus
+  outline: none
+
+input
+  &[type="checkbox"], &[type="radio"]
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    padding: 0
+  &[type="number"]
+    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+      height: auto
+  &[type="search"]
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration
+      -webkit-appearance: none
+  &[type=search]::-webkit-search-cancel-button
+    -webkit-appearance: searchfield-cancel-button
+  &[type="search"]
+    -webkit-appearance: textfield
+
+select option
+  padding: .25em .5em
+
+input::-moz-focus-inner
+  /*Remove button padding in FF
+  border: 0
+  padding: 0
+
+embed, iframe, object
+  max-width: 100%
+
+.fluid-width-video-wrapper
+  max-height: 100vh
+
+a
+  &:link, &:visited
+    text-decoration: none
+
+/* Text meant only for screen readers
+
+.screen-reader-text
+  clip: rect(1px, 1px, 1px, 1px)
+  height: 1px
+  overflow: hidden
+  position: absolute !important
+  width: 1px
+  word-wrap: normal !important
+
+/*--------------------------------------------------------------
+ *	# GUTENBERG
+ *--------------------------------------------------------------
+
+.entry-content
+  .wp-block-archives, .wp-block-categories, .wp-block-latest-posts
+    padding: 0
+    list-style: none
+
+.wp-block-quote
+  &.is-large, &.is-style-large
+    padding: 1.5em
+
+.aligncenter[class^='wp-block']:not([class^='wp-block-cover'])
+  display: table
+
+.wp-block-separator
+  max-width: 25%
+  &.is-style-wide
+    max-width: 100%
+  &.is-style-dots::before
+    color: inherit
+
+.wp-block-button .wp-block-button__link
+  border: 3px solid
+  padding: 0.5em 1.5em
+  font-size: .9em
+  font-weight: bold
+  text-transform: uppercase
+  /* background: transparent;
+
+.wp-block-pullquote
+  padding: 1.5em 0
+
+.wp-block-button
+  transition: .2s opacity
+  &:hover
+    opacity: 0.85
+
+.wp-block-gallery.is-cropped
+  .blocks-gallery-image a, .blocks-gallery-item a
+    transition: .2s ease-out opacity
+  .blocks-gallery-image a:hover, .blocks-gallery-item a:hover
+    opacity: 0.8
+
+/*--------------------------------------------------------------
+ *	# LAYOUT
+ *--------------------------------------------------------------
+
+#site-wrapper
+  overflow: hidden
+  position: relative
+
+#container
+  float: none
+  width: 100%
+  margin: 0
+  overflow: hidden
+
+.main
+  margin-bottom: 0
+  min-height: 400px
+  clear: both
+  overflow: hidden
+
+#content-masonry
+  margin-right: -1%
+  margin-left: -1%
+
+.sidey
+  display: block
+  float: left
+  padding: 2em
+
+#footer
+  width: 100%
+  clear: both
+
+/*--------------------------------------------------------------
+ *	# HEADER
+ *--------------------------------------------------------------
+
+#masthead
+  position: relative
+
+#branding
+  float: left
+  -webkit-transition: .5s height ease-in-out
+  transition: .5s height ease-in-out
+  .identity
+    float: left
+
+a#logo
+  height: auto
+  width: 100%
+  > img
+    position: absolute
+    left: 0
+    padding: 1%
+    top: 0
+
+#site-text
+  position: relative
+  top: 50%
+  display: inline-block
+  float: left
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+#site-title
+  float: left
+  line-height: 1.5
+
+#branding .identity + #site-text
+  margin-left: 1em
+  clear: none
+
+#site-title
+  a
+    display: block
+    text-transform: uppercase
+    text-decoration: none
+    span
+      display: inline-block
+      padding-right: 1px
+  span a span:nth-child(0)
+
+#site-description
+  display: none
+  clear: left
+  float: left
+  font-size: .9em
+  line-height: 1.3
+  opacity: .75
+
+#site-header-main
+  position: relative
+  z-index: 101
+  display: inline-block
+  width: 100%
+  vertical-align: top
+  -webkit-transition: all .2s linear
+  transition: all .2s linear
+
+#site-header-main-inside
+  display: table
+  padding: 0 2%
+
+#masthead:after
+  display: table
+  clear: both
+  content: ""
+
+.fluida-menu-animation
+  #site-header-main.header-fixed
+    height: 80px
+    line-height: 80px
+    .menu-search-animated
+      height: 80px
+      line-height: 80px
+  .header-fixed
+    #sheader, .identity, #access div > ul > li > a
+      height: 80px
+      line-height: 80px
+    #branding
+      height: 80px
+
+#site-header-main
+  -webkit-transition: .25s line-height ease-in-out, .25s height ease-in-out
+  transition: .25s line-height ease-in-out, .25s height ease-in-out
+  .menu-search-animated, #sheader, .identity, #site-title > span > a
+    -webkit-transition: .25s line-height ease-in-out, .25s height ease-in-out
+    transition: .25s line-height ease-in-out, .25s height ease-in-out
+
+.fluida-responsive-headerimage #masthead div.header-image, .fluida-cropped-headerimage #masthead img.header-image
+  display: none
+
+#masthead .header-image
+  display: block
+  width: 200%
+  max-width: 1000%
+  margin: 0 auto
+  background-size: cover
+  background-position: 50% 50%
+
+.wp-custom-header
+  position: relative
+  line-height: 0
+
+.wp-custom-header-video-button.wp-custom-header-video-button
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  margin: auto
+  background: rgba(255, 255, 255, 0.1)
+  opacity: 0
+  cursor: pointer
+  -webkit-transition: .3s all ease-out
+  transition: .3s all ease-out
+
+.wp-custom-header
+  &:hover .wp-custom-header-video-button.wp-custom-header-video-button
+    opacity: .7
+  video
+    object-fit: cover
+    max-width: 100%
+
+/* Header widget area
+
+#header-widget-area
+  display: block
+  overflow: auto
+  height: 100%
+  top: 2%
+
+/*--------------------------------------------------------------
+ *	## MAIN MENU
+ *--------------------------------------------------------------
+
+#access
+  display: inline
+  float: right
+
+.fluida-menu-left #access
+  float: left
+  margin-left: 1.5em
+
+.fluida-menu-center #access
+  display: table
+  float: none
+  margin: 0 auto
+
+#access
+  &:after
+    position: absolute
+    z-index: -1
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    content: ""
+  ul
+    > li > a
+      border-top: 2px solid transparent
+    ul li a
+      border-top: 0
+    &.sub-menu > li
+      &.current_page_item > a, &.current-menu-item > a, &.current_page_ancestor > a, &.current-menu-ancestor > a
+        border-top: 0
+        border-left: 1px solid transparent
+    &.children > li
+      &.current_page_item > a, &.current-menu-item > a, &.current_page_ancestor > a, &.current-menu-ancestor > a
+        border-top: 0
+        border-left: 1px solid transparent
+  a
+    display: block
+    padding: 0 1.6em
+    text-decoration: none
+    line-height: 3.5
+    > span
+      display: block
+      text-transform: uppercase
+    &:hover
+  > div ul li a:not([href])
+    /* Default cursor for menu items with no link
+    cursor: default
+  > div > ul > li
+    > a
+      position: relative
+      z-index: 800
+    &:hover
+      > a, + li > a
+        z-index: 1000
+  ul
+    &.children
+      z-index: 900
+    li
+      display: block
+      float: left
+      position: relative
+      white-space: nowrap
+  > div > ul
+    li
+      > a:not(:only-child) > span:after
+        position: absolute
+        z-index: 251
+        right: .6em
+        content: '\e80a'
+        font-family: "Elusive"
+      &:hover > a:not(:only-child) > span:after
+        top: .5em
+        opacity: 0
+        filter: alpha(opacity = 0)
+    ul > li
+      a:not(:only-child) > span:after
+        -webkit-transform: rotate(270deg)
+        -ms-transform: rotate(270deg)
+        transform: rotate(270deg)
+      &:hover > a:not(:only-child) > span:after
+        top: auto
+        right: -0.5em
+        opacity: 0
+        filter: alpha(opacity = 0)
+    li > a:not(:only-child) > span
+      /*padding-right: 1.5em;
+  > div > ul > li:hover, .sub-menu, .children
+  ul
+    ul
+      position: absolute
+      z-index: -1
+      clear: both
+      margin-left: 0
+      margin-top: -85px
+      opacity: 0
+      visibility: hidden
+      min-width: 125%
+      border-top: 4px solid transparent
+      box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.05)
+      -webkit-transition: 0.3s all ease-in
+      transition: 0.3s all ease-in
+    li a
+      letter-spacing: 1px
+  li
+    &.menu-hover > ul
+      visibility: visible
+      margin-top: 0
+      opacity: 1
+      -webkit-transition: 0.3s all ease-in
+      transition: 0.3s all ease-in
+    ul ul
+      height: 0
+    &.menu-hover > ul > li > ul
+      width: auto
+      height: auto
+  ul ul
+    li
+      /* level 2
+      display: table
+      position: relative
+      float: left
+      clear: both
+      width: 100%
+      /* submenu width fix
+      margin: 0
+      &:last-child
+    ul
+      li
+        &:last-child
+        /* level 3
+        display: block
+        float: none
+        width: 100%
+        min-width: 150px
+      position: absolute
+      top: 0
+      left: 100%
+      margin: 0
+      border-top: 0
+      border-left: 1px solid transparent
+      ul li
+        /* level 4
+    a, ul a
+      display: block
+      float: none
+      min-width: 150px
+      width: 100%
+    li:hover, ul li:hover
+  li
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out, .25s line-height ease-in-out, .25s height ease-in-out
+    transition: background .3s ease-in-out, color .3s ease-in-out, .25s line-height ease-in-out, .25s height ease-in-out
+  ul li
+    a
+      -webkit-transition: background .3s ease-in-out, color .3s ease-in-out, .25s line-height ease-in-out, .25s height ease-in-out
+      transition: background .3s ease-in-out, color .3s ease-in-out, .25s line-height ease-in-out, .25s height ease-in-out
+    &:hover > ul
+      display: block
+
+.menu-item a img
+  vertical-align: middle
+
+#access ul
+  li
+    &.current_page_item > a, &.current-menu-item > a
+  ul li
+    &.current_page_item, &.current-menu-ancestor, &.current-menu-item, &.current-menu-parent
+  li
+    &.current_page_item a, &.current-menu-ancestor a, &.current-menu-item a, &.current-menu-parent a, a:hover
+
+/*--------------------------------------------------------------
+ *	## MOBILE MENU
+ *--------------------------------------------------------------
+
+.noscroll
+  /* to be added to body on mobile
+  overflow: hidden
+
+#nav-toggle
+  /* Mobile nav toggle will only be visible on mobile
+  display: none
+  float: right
+  position: absolute
+  top: 0
+  right: 0
+  padding: 0 1em
+  cursor: pointer
+  span:before
+    content: "\e871"
+    font-size: 24px
+    font-family: "fluida-blocks"
+
+nav#mobile-menu
+  /* Actual mobile menu
+  display: none
+  position: fixed
+  z-index: 999999
+  overflow-y: auto
+  overflow-x: hidden
+  top: 0
+  left: -100%
+  right: 0
+  bottom: 0
+  line-height: 2
+  width: 100%
+  height: 100%
+  text-align: center
+  > div
+    max-width: 400px
+    margin: 8em auto 0
+    width: 80%
+    padding-bottom: 3em
+  a
+    display: inline
+    font-size: 1.2em
+    font-weight: 300
+    text-decoration: none
+    span
+      display: inline-block
+  > div
+    ul li a:not([href])
+      /* Default cursor for menu items with no link
+      cursor: default
+    > ul > li > a
+      position: relative
+      z-index: 9999
+  ul
+    li
+      position: relative
+      display: block
+      float: none
+      clear: both
+      white-space: normal
+      line-height: 3
+      text-align: left
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+    ul li
+      letter-spacing: 1px
+      font-size: 0.95em
+      &:last-child
+
+#mobile-nav ul li a span
+  max-width: 85%
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+  line-height: 1.4
+
+.dropdown-toggle
+  display: inline-block
+  position: relative
+  margin: 0
+  border: 0
+  padding: .5em 1em
+  cursor: pointer
+  font-size: 1em
+  color: inherit
+  background: transparent
+  opacity: 0.5
+  -webkit-transform: rotateX(0)
+  -ms-transform: rotateX(0)
+  transform: rotateX(0)
+  -webkit-transition: .6s all ease-in-out
+  transition: .6s all ease-in-out
+
+ul ul .dropdown-toggle
+  top: -0.4em
+
+.dropdown-toggle:hover
+  background: transparent
+
+.toggle-on.dropdown-toggle
+  -webkit-transform: rotateX(-180deg)
+  -ms-transform: rotateX(-180deg)
+  transform: rotateX(-180deg)
+
+a.toggled-on
+  border-bottom: 1px solid
+
+.dropdown-toggle:after
+  font-family: "elusive"
+  content: '\e80A'
+  font-size: 1.2em
+
+nav#mobile-menu
+  .sub-menu, .children
+    display: none
+    opacity: 0
+    max-height: 0
+    font-size: .95em
+    margin: 0 auto
+    -webkit-transition: .5s max-height ease-in-out, .3s opacity ease-in-out, .3s padding ease
+    transition: .5s max-height ease-in-out, .3s opacity ease-in-out, .3s padding ease
+  .sub-menu.toggled-on, .children.toggled-on
+    display: block
+    opacity: 1
+    max-height: 1000px
+    -webkit-transition: 1s max-height ease-in-out, .3s .3s opacity ease-in-out, .3s .3s padding ease
+    transition: 1s max-height ease-in-out, .3s .3s opacity ease-in-out, .3s .3s padding ease
+  #nav-cancel
+    position: absolute
+    top: 0
+    right: 0
+    display: inline-block
+    width: auto
+    height: 2em
+    z-index: 100000
+    margin-top: 25px
+    padding: 0 .5em
+    cursor: pointer
+    font-size: 2em
+    line-height: 2
+
+#mobile-menu
+  .menu-main-search
+    /* Searchbar in main menu will always be top
+    position: absolute
+    top: 0
+    right: 0
+    left: 0
+    width: 70%
+    max-width: 400px
+    margin: 25px auto 0
+    border: none
+    font-size: 1.2em
+  .searchform
+    .searchsubmit, &:hover input[type="search"], input[type="search"]:focus
+      background: transparent
+      color: inherit
+    &::after
+      display: none
+  .menu-main-search .searchform
+    max-width: 100%
+
+nav#mobile-menu #smobile
+  display: inline-block
+  margin: 3em auto 1em
+
+/*--------------------------------------------------------------
+ *	# FOOTER
+ *--------------------------------------------------------------
+
+#footer
+  display: block
+  overflow: visible
+  width: 100%
+  border-top: 1px solid transparent
+
+#footer-inside
+  display: block
+  float: none
+  position: relative
+  overflow: hidden
+  padding: 2em
+
+#footer:after
+  display: table
+  clear: both
+  content: ""
+
+#colophon a, #footer a
+  -webkit-transition: all .2s ease-out
+  transition: all .2s ease-out
+
+#site-copyright
+  display: block
+  float: left
+  clear: left
+  font-style: italic
+  font-size: .9em
+  /*line-height: 1.5;
+
+#footer a
+  text-decoration: none
+  &:hover
+    text-decoration: none
+
+img#wpstats
+  display: block
+  margin: 0 auto .5em
+
+/*--------------------------------------------------------------
+ *	## FOOTER MENU
+ *--------------------------------------------------------------
+
+.footermenu
+  display: block
+  float: left
+  margin-bottom: 1em
+  > ul
+  ul li
+    display: block
+    float: left
+    white-space: nowrap
+    -webkit-transition: all .2s ease-in-out
+    transition: all .2s ease-in-out
+    letter-spacing: 2px
+    span.sep
+      margin: 0 1em
+      font-size: .8em
+    &:last-child span.sep
+      display: none
+    a
+      font-size: .8em
+      font-weight: 300
+      text-transform: uppercase
+
+/*--------------------------------------------------------------
+ *	## FOOTER WIDGET AREA
+ *--------------------------------------------------------------
+
+#colophon
+  width: 100%
+
+#colophon-inside
+  display: block
+  float: none
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 1
+  -moz-flex: 1
+  -ms-flex: 1
+  flex: 1
+  -ms-flex-flow: row wrap
+  flex-flow: row wrap
+  height: 100%
+  overflow: hidden
+  min-height: 100%
+  margin: 2em auto 0
+  max-width: 100%
+
+#colophon .widget-container
+  display: block
+  float: left
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -moz-flex-direction: column
+  -ms-flex-direction: column
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  flex-direction: column
+  position: relative
+  padding: 2em
+  /*align-items: center;
+
+.footer-all .widget-container::after, .footer-two .widget-container::after, .footer-three .widget-container::after, .footer-four .widget-container::after
+  position: absolute
+  top: 25%
+  right: 0
+  height: 50%
+  width: 1px
+  content: ""
+
+.footer-all .widget-container:last-child::after, .footer-four .widget-container:nth-child(4n)::after, .footer-three .widget-container:nth-child(3n)::after, .footer-two .widget-container:nth-child(2n)::after
+  display: none
+
+.footer-center .footer-widget-inside
+  display: table
+  margin: 0 auto
+
+@media (max-width: 640px)
+  .pagination li
+    color: black
+    float: left
+    padding: 4px
+    text-decoration: none
+  .footer-center .footer-widget-inside
+    width: 100%
+
+.footer-four .widget-container
+  width: 25%
+  &:nth-child(4n+1)
+    clear: both
+
+.footer-three .widget-container
+  width: 33.333%
+  &:nth-child(3n+1)
+    clear: both
+
+.footer-two .widget-container
+  width: 50%
+  &:nth-child(2n+1)
+    clear: both
+
+.footer-one .widget-container
+  width: 100%
+  clear: both
+
+/*#colophon-inside.footer-all {
+ *	-ms-flex-wrap: nowrap;
+ *	flex-wrap: nowrap;
+ *}
+
+.footer-all .widget-container
+  -webkit-box-flex: 1
+  -moz-flex: 1
+  -ms-flex: 1
+  flex: 1
+
+/*--------------------------------------------------------------
+ *	# CONTENT
+ *--------------------------------------------------------------
+
+.main
+  h1, h2, h3, h4, h5, h6
+    margin: 1em 0 .5em
+
+.entry-content
+  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child
+    margin-top: 0
+
+.main
+  table
+    max-width: 100%
+    margin: 0 0 2em 0
+    border: 0
+    vertical-align: top
+  tr
+    vertical-align: top
+  .alternate
+  th
+    font-weight: 600
+    padding: .75em
+  td
+    padding: .75em
+
+.fluida-stripped-table .main
+  td
+    border-top: 1px solid transparent
+  tr.even
+    background-color: transparent
+
+.fluida-bordered-table .main
+  th, td
+    border: 1px solid transparent
+
+.fluida-stripped-table .main th, .fluida-bordered-table .main th
+  border-top: 1px solid transparent
+
+.fluida-stripped-table .main thead th, .fluida-bordered-table .main thead th
+  border-bottom: 2px solid transparent
+
+.fluida-stripped-table .main thead th
+  border-top-width: 2px
+
+.entry-content, .entry-summary
+  clear: both
+  padding-top: 2em
+  word-wrap: break-word
+
+.entry-content::after, .entry-summary::after, .content-masonry::after
+  content: ""
+  display: block
+  clear: both
+
+.fluida-magazine-two
+  .entry-content, .entry-summary
+    padding-top: 1.3em
+
+.fluida-magazine-three
+  .entry-content, .entry-summary
+    padding-top: 1.3em
+
+.single .entry-content
+  padding-top: 2.5em
+
+.main .entry-summary p:last-child
+  margin-bottom: 1em
+
+.entry-content
+  h1, h2, h3, h4, h5, h6
+    line-height: 1.3
+  h5, h6
+    text-transform: uppercase
+
+.main article
+  ul:not([class]), ol:not([class])
+    margin-left: 2em
+
+.entry-content
+  fieldset
+    border: 1px solid transparent
+    margin: 0 0 2em 0
+    legend
+      font-weight: bold
+  blockquote
+    &.left
+      float: left
+      width: 33%
+      margin-right: 2em
+      margin-left: 0
+      text-align: right
+    &.right
+      float: right
+      width: 33%
+      margin-right: 0
+      margin-left: 2em
+      text-align: left
+
+/*--------------------------------------------------------------
+ *	## PAGE TITLES
+ *--------------------------------------------------------------
+
+.main
+  .page-title
+    display: block
+    float: none
+    margin: 0
+    padding-bottom: .3em
+    font-size: 1.3em
+    &:only-child
+      padding: 0
+  .pad-container p:last-child
+    margin: 0
+
+.page-title strong
+  text-decoration: underline
+  font-weight: 400
+
+.entry-title
+  margin: 0
+  padding: .1em 0
+  font-weight: 300
+  line-height: 1.4
+  word-wrap: break-word
+  a
+    border-bottom: 1px solid transparent
+    font-weight: 300
+    -webkit-transition: all .5s ease-in
+    transition: all .5s ease-in
+    &:link, &:visited
+      color: inherit
+      text-decoration: none
+    &:active, &:hover
+      border-bottom: 1px solid
+
+.main
+  .entry-title, #comments-title
+    margin: 0
+
+/*--------------------------------------------------------------
+ *	## POST METAS
+ *--------------------------------------------------------------
+
+.entry-meta
+  display: block
+  clear: both
+  overflow: hidden
+  margin: 0
+  padding: 0
+  font-size: 1em
+  .author
+    display: block
+    float: none
+    width: 100%
+    margin-bottom: .5em
+    padding-bottom: .5em
+    border-bottom: 1px solid transparent
+    em
+      display: inline-block
+      font-style: normal
+  span
+    display: block
+    float: left
+    margin-right: 1em
+    /*font-size: .9em;
+    line-height: 2
+
+.entry-utility span
+  display: block
+  float: left
+  margin-right: 1em
+  /*font-size: .9em;
+  line-height: 2
+
+.entry-meta
+  span a
+    padding-left: .2em
+    font-size: 1em
+    -webkit-transition: .4s color ease
+    transition: .4s color ease
+  .updated
+    display: none
+
+.entry-utility
+  clear: both
+  span.bl_bookmark
+    display: inline
+    float: none
+    padding: 0
+
+.comments-link strong
+  font-weight: 300
+
+.entry-meta abbr, .entry-utility abbr
+  border: none
+
+.entry-meta abbr:hover, .entry-utility abbr:hover
+  border-bottom: 1px dotted transparent
+
+.entry-meta span
+  i:before
+    -webkit-transform: rotateY(0)
+    -ms-transform: rotateY(0)
+    transform: rotateY(0)
+    -webkit-transition: .6s all ease-in-out .2s
+    transition: .6s all ease-in-out .2s
+  &:hover i:before
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+.tag-links
+  margin-left: 2em
+
+span.edit-link
+  display: block
+  position: absolute
+  right: .5em
+  bottom: .5em
+  padding: 0
+  font-size: .9em
+  text-decoration: underline
+  opacity: .5
+  -webkit-transition: .3s opacity
+  transition: .3s opacity
+  a.post-edit-link
+    text-decoration: underline
+    margin: 0
+    padding: 0
+    &:hover
+      text-decoration: underline
+      margin: 0
+      padding: 0
+  .icon-edit:before
+    text-decoration: underline
+    margin: 0
+    padding: 0
+  &:hover
+    opacity: 1
+
+/*--------------------------------------------------------------
+ *	## AUTHOR INFO
+ *--------------------------------------------------------------
+
+#author-info
+  display: block
+  clear: both
+  overflow: hidden
+  #author-avatar
+    float: right
+    height: 80px
+    margin: 0 0 0 -100px
+  #author-description
+    float: left
+    margin-right: 100px
+
+article #author-info
+  clear: both
+  overflow: hidden
+  margin: 2.5em 0 0
+  padding: 1.5em 0
+  border-top: 1px solid transparent
+
+#author-avatar .avatar
+  border-radius: 4px
+
+#author-info #author-link
+  margin-top: .5em
+
+/*--------------------------------------------------------------
+ *	## ARTICLES
+ *--------------------------------------------------------------
+
+article
+  &.sticky
+    position: relative
+    padding-top: 5px
+    &:after
+      position: absolute
+      top: 0
+      left: 0
+      height: 5px
+      width: 100%
+      content: ""
+    .date
+      display: none
+  &.hentry
+    display: block
+    position: relative
+    overflow: hidden
+    margin-bottom: 2em
+
+.main .content-widget
+  display: block
+  position: relative
+  overflow: hidden
+  margin-bottom: 2em
+
+article.hentry .article-inner
+  display: block
+  overflow: hidden
+  padding: 2em
+
+#content-masonry article.hentry
+  display: block
+  overflow: hidden
+  margin: 0
+  margin-right: 1%
+  margin-bottom: 2em
+  margin-left: 1%
+  .article-inner
+    padding: 2.5em 2em
+
+.pad-container
+  display: block
+  overflow: hidden
+  margin: 0
+  margin-bottom: 2em
+  padding: 2em
+  padding-bottom: 2.5em
+  padding-top: 2.5em
+  border-top: 5px solid transparent
+  &.no-results, &.not-found
+    padding-top: 5em
+    padding-bottom: 5em
+
+article.hentry .post-thumbnail-container
+  display: block
+  overflow: hidden
+  width: 100%
+  margin-bottom: -.5em
+  > a
+    display: table
+    margin: 0 auto
+    &.responsive-featured-image
+      display: block
+      margin: 0 auto
+      width: 100%
+      text-align: center
+      img
+        -webkit-transition: .3s opacity ease-out
+        transition: .3s opacity ease-out
+        -webkit-transform: translateZ(0)
+        transform: translateZ(0)
+        -webkit-backface-visibility: hidden
+        backface-visibility: hidden
+      &:hover img
+        opacity: 0.8
+
+.fluida-cropped-featured .main .post-thumbnail-container .responsive-featured-image, .fluida-responsive-featured .main .post-thumbnail-container a.post-featured-image
+  display: none
+
+.fluida-magazine-one #content-masonry article.hentry
+  width: 98%
+
+.fluida-magazine-two #content-masonry article.hentry
+  float: left
+  width: 48%
+  margin-bottom: 1.5em
+  &:nth-child(2n+1)
+    clear: both
+
+.fluida-magazine-three #content-masonry article.hentry
+  float: left
+  width: 31.333333333%
+  margin-bottom: 1.5em
+  &:nth-child(3n+1)
+    clear: both
+
+.fluida-elementborder
+  #site-header-main, article.hentry, .pad-container, .sidey, #colophon, .page-numbers:not(.dots)
+    border: 1px solid rgba(0, 0, 0, 0.07)
+  #colophon
+    border-width: 1px 0 0 0
+  #branding
+    border-width: 0 0 1px 0
+
+.fluida-elementshadow
+  #site-header-main, article.hentry, .pad-container, .sidey, .page-numbers:not(.dots)
+    box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.03)
+
+.fluida-elementradius
+  article, .sidey, .page-number, #cryout_ajax_more_trigger
+    border-radius: 5px
+  .page-header
+    border-radius: 0 0 5px 5px
+  a.continue-reading-link, span.entry-format
+    border-radius: 3px
+  #toTop
+    border-radius: 5px 5px 0 0
+
+/*--------------------------------------------------------------
+ *	## ARTICLE ANIMATION
+ *--------------------------------------------------------------
+
+article.hentry
+  opacity: 1
+  -webkit-filter: none
+  filter: none
+  -webkit-transform: translateY(0) scale(1, 1) blur(0)
+  -ms-transform: translateY(0) scale(1, 1) blur(0)
+  transform: translateY(0) scale(1, 1) blur(0)
+  -webkit-transition: .5s opacity ease-in-out, .5s transform ease-in-out, .5s filter ease
+  transition: .5s opacity ease-in-out, .5s transform ease-in-out, .5s filter ease
+
+/* Article Animation - Fade
+
+.fluida-article-animation-fade .animated-article
+  opacity: 0
+
+/* Article Animation - Slide
+
+.fluida-article-animation-slide .animated-article
+  -webkit-transform: translateY(100px)
+  -ms-transform: translateY(100px)
+  transform: translateY(100px)
+
+/* Article Animation - Grow
+
+.fluida-article-animation-grow .animated-article
+  -webkit-transform: scale(0.85, 0.85)
+  -ms-transform: scale(0.85, 0.85)
+  transform: scale(0.85, 0.85)
+
+/* Article Animation - Slide Left
+
+.fluida-article-animation-slideLeft .animated-article
+  opacity: 0
+  -webkit-transform: translateX(-20px)
+  -ms-transform: translateX(-20px)
+  transform: translateX(-20px)
+
+/* Article Animation - Slide Right
+
+.fluida-article-animation-slideRight .animated-article
+  opacity: 0
+  -webkit-transform: translateX(20px)
+  -ms-transform: translateX(20px)
+  transform: translateX(20px)
+
+/* Article Animation - Zoom In
+
+.fluida-article-animation-zoomIn .animated-article
+  opacity: 0
+  -webkit-transform: scale(0.9, 0.9)
+  -ms-transform: scale(0.9, 0.9)
+  transform: scale(0.9, 0.9)
+
+/* Article Animation - Zoom out
+
+.fluida-article-animation-zoomOut .animated-article
+  opacity: 0
+  -webkit-transform: scale(1.2, 1.2)
+  -ms-transform: scale(1.2, 1.2)
+  transform: scale(1.2, 1.2)
+
+/* Article Blur
+
+.fluida-article-animation-blur .animated-article
+  opacity: 0
+  -webkit-filter: blur(8px)
+  -ms-filter: blur(8px)
+  filter: blur(8px)
+
+/*--------------------------------------------------------------
+ *	## IMAGES
+ *--------------------------------------------------------------
+
+/* Prevent overlfow
+
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail
+  max-width: 100%
+  height: auto
+
+.main a.post-featured-image
+  display: inline-block
+  position: relative
+  height: 100%
+  width: 100%
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  -webkit-transition: .3s all ease-in-out
+  transition: .3s all ease-in-out
+  &:hover
+    background-position: 50% 0%
+  &::before
+    position: absolute
+    bottom: 100%
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, 0.2)
+    content: ""
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+    -webkit-transition: all .3s ease-out
+    transition: all .3s ease-out
+  &:hover::before
+    bottom: -1px
+
+.alignleft, img.alignleft
+  float: left
+  margin-right: 2em
+
+.alignright, img.alignright
+  float: right
+  margin-left: 2em
+
+.aligncenter
+  /* display: block;
+  clear: both
+  margin-right: auto
+  margin-left: auto
+
+img
+  &.aligncenter
+    /* display: block;
+    clear: both
+    margin-right: auto
+    margin-left: auto
+    display: block
+  &.alignleft, &.alignright, &.aligncenter
+    margin-bottom: 1em
+  &.alignleft, &.alignright, &.aligncenter, &.alignnone
+    -webkit-transition: all .3s ease-in-out
+    transition: all .3s ease-in-out
+
+.wp-caption img
+  -webkit-transition: all .3s ease-in-out
+  transition: all .3s ease-in-out
+
+img
+  &.alignleft:hover, &.alignright:hover, &.aligncenter:hover, &.alignnone:hover
+
+.wp-caption
+  img:hover
+  max-width: 100%
+  margin-bottom: 1em
+  text-align: center
+
+body .main .wp-caption > a
+  display: block
+
+.wp-caption
+  img
+    display: block
+    width: 100%
+    border: none
+    padding: 0
+    box-shadow: none
+  .wp-caption-text
+    padding: .7em .5em
+    text-align: center
+    font-style: italic
+
+.wp-smiley
+  width: auto
+  margin: 0
+  border: 0
+  vertical-align: middle
+  background: none
+  box-shadow: none
+
+.attachment img
+  /* single attachment images should be centered
+  display: block
+  margin: 0 auto
+
+/*--------------------------------------------------------------
+ *	## PAGE NAVIGATION
+ *--------------------------------------------------------------
+
+/* Multiple page navigation
+
+.page-link
+  clear: both
+  margin: .7em 0
+  a
+    display: inline-block
+    position: relative
+    top: -1px
+    padding: 0 .3em
+    border-top: 1px solid transparent
+    line-height: 2.5
+    font-weight: 300
+    text-decoration: none
+    -webkit-transition: all .3s ease-in
+    transition: all .3s ease-in
+    &:hover
+  > span
+    > em
+      display: inline-block
+      position: relative
+      top: -1px
+      padding: 0 .3em
+      border-top: 1px solid transparent
+      line-height: 2.5
+      font-weight: 300
+      text-decoration: none
+      -webkit-transition: all .3s ease-in
+      transition: all .3s ease-in
+    display: inline-block
+    border-top: 1px solid transparent
+  em
+    font-style: normal
+  a
+    &:last-child
+      border-right: none
+    &:hover
+  > span > em:last-child
+    border-right: none
+
+/* Single Previous/Next Post Navigation
+
+#nav-below
+  display: block
+  float: none
+  clear: both
+  margin-top: 2em
+  &:after
+    display: block
+    clear: both
+    content: ""
+  .nav-previous
+    display: block
+    float: left
+    position: relative
+    a
+      display: block
+      position: relative
+      padding: .5em 2em .5em 1em
+  .nav-next
+    display: block
+    float: right
+    position: relative
+    clear: both
+    a
+      display: block
+      position: relative
+      padding: .5em 1em .5em 2em
+  .nav-previous a:before
+    position: absolute
+    top: 0
+    left: 0
+    box-sizing: content-box
+    width: 100%
+    height: 1px
+    content: ""
+    -webkit-transition: all .5s ease-in
+    transition: all .5s ease-in
+  .nav-next a:before
+    position: absolute
+    top: 0
+    left: 0
+    box-sizing: content-box
+    width: 100%
+    height: 1px
+    content: ""
+    -webkit-transition: all .5s ease-in
+    transition: all .5s ease-in
+    top: auto
+    right: 0
+    bottom: 0
+    left: auto
+  .nav-previous a:hover:before
+    left: -10em
+    padding-right: 10em
+  .nav-next a:hover:before
+    right: -10em
+    padding-left: 10em
+  .nav-previous a
+    float: left
+  .nav-next a
+    float: right
+    text-align: right
+
+/* Blog, Archive Pages Previous/Next Posts Pagination
+
+#nav-old-below
+  display: table
+  float: none
+  clear: both
+  margin: 1em auto
+  text-align: center
+  .nav-previous, .nav-next
+    float: left
+    margin-right: 2px
+  .nav-previous a, .nav-next a
+    display: block
+    padding: 1em
+    -webkit-transition: .3s all ease
+    transition: .3s all ease
+  .nav-previous a:hover, .nav-next a:hover
+    padding: 1em 2em
+  i:before
+    margin: 0 .5em
+
+.schema-publisher, .schema-image
+  display: none
+
+/*--------------------------------------------------------------
+ *	# LANDING PAGE
+ *--------------------------------------------------------------
+
+.fluida-landing-page
+  .lp-blocks-inside, .lp-boxes-inside, .lp-text-inside, .lp-posts-inside, .lp-portfolio-inside
+    margin: 0 auto
+    overflow: hidden
+  #header-image-main-inside
+    display: none
+  #content
+    margin-top: 0
+  #main
+    width: 100%
+
+.lp-section-header
+  margin: 0 auto
+  padding-top: 3em
+  text-align: center
+  .lp-section-title, .lp-section-desc
+    margin-left: auto
+    margin-right: auto
+    max-width: 75%
+  .lp-section-title
+    line-height: 1.3
+  .lp-section-desc
+    font-size: 1.2em
+    line-height: 1.5
+  + .lp-boxes-padding
+    margin-top: 4em
+
+/* LP Slider
+
+.lp-slider
+  position: relative
+  overflow: hidden
+
+.lp-staticslider
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    z-index: 2
+    left: 0
+    top: 0
+    display: block
+    height: 100%
+    width: 100%
+    background: rgba(0, 0, 0, 0.1)
+
+.lp-staticslider-image
+  max-height: 100vh
+  display: block
+  width: 100%
+  height: auto
+
+.lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption
+  position: absolute
+  z-index: 3
+  left: 15%
+  right: 15%
+  top: 50%
+  bottom: auto
+  margin: 0 auto
+  max-width: 900px
+  text-align: center
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+.lp-staticslider .staticslider-caption-title, .seriousslider.seriousslider-theme .seriousslider-caption-title
+  position: relative
+  margin: 0
+  font-size: 3.5em
+  text-transform: uppercase
+  letter-spacing: 3px
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+  color: #FFF
+  opacity: 0
+  -webkit-animation: .75s .3s animation-slider-title ease-in-out forwards
+  animation: .75s .3s animation-slider-title ease-in-out forwards
+
+@-webkit-keyframes animation-slider-title
+  from
+    opacity: 0
+    bottom: -20px
+
+  to
+    opacity: 1
+    bottom: 0
+
+
+@keyframes animation-slider-title
+  from
+    opacity: 0
+    bottom: -20px
+
+  to
+    opacity: 1
+    bottom: 0
+
+
+.lp-staticslider
+  .staticslider-sep
+    display: block
+    height: 2px
+    margin: 2% auto 3%
+    float: none
+    max-width: 0
+    background: #FFF
+    -webkit-animation: .5s animation-slider-separator forwards
+    animation: .5s animation-slider-separator forwards
+  .staticslider-caption-text
+    position: relative
+    font-size: 1.4em
+    line-height: 1.5
+    opacity: 0
+    color: #FFF
+    -webkit-animation: .75s .3s animation-slider-text ease-in-out forwards
+    animation: .75s .3s animation-slider-text ease-in-out forwards
+
+@-webkit-keyframes animation-slider-separator
+  from
+    max-width: 0
+
+  to
+    max-width: 10em
+
+
+@keyframes animation-slider-separator
+  from
+    max-width: 0
+
+  to
+    max-width: 10em
+
+
+.seriousslider.seriousslider-theme .seriousslider-caption-text
+  position: relative
+  font-size: 1.4em
+  line-height: 1.5
+  opacity: 0
+  color: #FFF
+  -webkit-animation: .75s .3s animation-slider-text ease-in-out forwards
+  animation: .75s .3s animation-slider-text ease-in-out forwards
+
+@-webkit-keyframes animation-slider-text
+  from
+    opacity: 0
+    top: -20px
+
+  to
+    opacity: 1
+    top: 0
+
+
+@keyframes animation-slider-text
+  from
+    opacity: 0
+    top: -20px
+
+  to
+    opacity: 1
+    top: 0
+
+
+a[class^="staticslider-button"], .seriousslider.seriousslider-theme .seriousslider-caption-buttons a
+  position: relative
+  display: inline-block
+  margin-top: 2em
+  padding: 0.8em 2em
+  border: 2px solid transparent
+  font-size: 0.9em
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  -webkit-transition: .2s ease-out all
+  transition: .2s ease-out all
+  opacity: 0
+  -webkit-animation: .75s .5s animation-slider-text ease-in-out forwards
+  animation: .75s .5s animation-slider-text ease-in-out forwards
+
+a.staticslider-button + a.staticslider-button, .seriousslider-caption-buttons a + a
+  margin-left: 1em
+
+.staticslider-button:nth-child(2n+1):hover, .seriousslider-caption-buttons a:nth-child(2n+1):hover, .seriousslider.seriousslider-theme .seriousslider-caption-buttons a:nth-child(2n+1):hover
+  background: transparent
+
+/* LP Blocks
+
+.lp-blocks
+  display: block
+  float: none
+  width: 100%
+  overflow: hidden
+
+.lp-blocks-inside
+  padding: 5em 0
+
+.lp-block
+  position: relative
+  display: block
+  float: left
+  overflow: hidden
+  margin-top: 1.5em
+  margin-bottom: 1.5em
+  padding: 0 2%
+  text-align: center
+  background: transparent
+
+.lp-blocks
+  &.lp-blocks-rows-4 .lp-block
+    width: 23.5%
+    margin-right: 2%
+    padding: 0 1%
+  &.lp-blocks-rows-3 .lp-block
+    width: 32%
+    margin-right: 2%
+    padding: 0 2%
+  &.lp-blocks-rows-2 .lp-block
+    width: 49%
+    margin-right: 2%
+    padding: 0 2%
+  &.lp-blocks-rows-1 .lp-block
+    width: 100%
+    margin-right: 0
+    padding: 0
+  &.lp-blocks-rows-4 .lp-block:nth-child(4n), &.lp-blocks-rows-3 .lp-block:nth-child(3n), &.lp-blocks-rows-2 .lp-block:nth-child(2n)
+    margin-right: 0
+  &.lp-blocks-rows-4 .lp-block:nth-child(4n+1), &.lp-blocks-rows-3 .lp-block:nth-child(3n+1), &.lp-blocks-rows-2 .lp-block:nth-child(2n+1)
+    clear: both
+
+.lp-block
+  i
+    display: inline-block
+    cursor: default
+  a i
+    cursor: pointer
+  i::before
+    font-size: 35px
+    /* em units cause blur
+    line-height: 1
+    -webkit-filter: grayscale(100%)
+    filter: grayscale(100%)
+    -webkit-transition: all .5s ease-in-out
+    transition: all .5s ease-in-out
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+    -webkit-animation: 1s .5s icon-flip forwards
+    animation: 1s .5s icon-flip forwards
+  &:nth-child(2) i::before
+    -webkit-animation-delay: .65s
+    animation-delay: .65s
+  &:nth-child(3) i::before
+    -webkit-animation-delay: .8s
+    animation-delay: .8s
+  &:nth-child(4) i:before
+    -webkit-animation-delay: .95s
+    animation-delay: .95s
+  i::after
+    content: ""
+    position: relative
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    display: block
+    width: 2em
+    height: 1px
+    margin: 1em auto
+    background: transparent
+    opacity: 0.3
+    -webkit-filter: grayscale(100%)
+    filter: grayscale(100%)
+    -webkit-transition: all .5s ease-in-out
+    transition: all .5s ease-in-out
+    -webkit-animation: 1s .5s icon-border forwards
+    animation: 1s .5s icon-border forwards
+  &:hover i:after
+    width: 4em
+    opacity: 1
+
+@-webkit-keyframes icon-flip
+  from
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+  to
+    opacity: 1
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+    -webkit-transform: rotateY(0)
+    -ms-transform: rotateY(0)
+    transform: rotateY(0)
+
+
+@keyframes icon-flip
+  from
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+  to
+    opacity: 1
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+    -webkit-transform: rotateY(0)
+    -ms-transform: rotateY(0)
+    transform: rotateY(0)
+
+
+@-webkit-keyframes icon-border
+  to
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+
+
+@keyframes icon-border
+  to
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+
+
+.main .lp-block-title
+  margin: 0 auto .75em
+  letter-spacing: 1px
+  text-transform: uppercase
+  line-height: 1.2
+
+.lp-block-text
+  line-height: 1.5
+
+.lp-block-readmore
+  display: inline-block
+  margin-top: 1.5em
+  font-size: 0.85em
+  text-transform: uppercase
+  letter-spacing: 1px
+  color: inherit
+  -webkit-transition: .2s ease-out color
+  transition: .2s ease-out color
+
+/* LP Block 2
+
+.lp-blocks2 .lp-block
+  i::before
+    box-sizing: content-box
+    width: 76px
+    font-size: 24px
+    /* em units cause blur
+    text-align: center
+    border: 2px solid
+    line-height: 76px
+    height: 76px
+    -webkit-transition: .3s ease-out all
+    transition: .3s ease-out all
+  &:hover i::before
+    background: transparent
+  i::after
+    display: none
+
+.main .lp-blocks2 .lp-block-title
+  margin: 0.75em auto .75em
+  line-height: 1.3
+  text-transform: none
+  letter-spacing: 0
+
+.lp-blocks2 .lp-block-text
+  line-height: 1.5
+  text-align: justify
+
+/* LP Boxes
+
+.lp-boxes
+  display: block
+  float: none
+  width: 100%
+  overflow: hidden
+  .lp-boxes-inside, .lp-boxes-margins
+    padding: 3em 0
+
+.lp-box
+  display: block
+  float: left
+  text-align: center
+  overflow: hidden
+  position: relative
+
+.lp-boxes
+  &.lp-boxes-rows-4 .lp-box
+    width: 25%
+  &.lp-boxes-rows-3 .lp-box
+    width: 33.333333%
+  &.lp-boxes-rows-2 .lp-box
+    width: 50%
+  &.lp-boxes-rows-1 .lp-box
+    width: 100%
+  &.lp-boxes-rows-4 .lp-boxes-margins .lp-box
+    width: 23.5%
+    margin-right: 2%
+    margin-top: 1.5%
+    margin-bottom: 1.5%
+  &.lp-boxes-rows-3 .lp-boxes-margins .lp-box
+    width: 32%
+    margin-right: 2%
+    margin-top: 1.5%
+    margin-bottom: 1.5%
+  &.lp-boxes-rows-2 .lp-boxes-margins .lp-box
+    width: 49%
+    margin-right: 2%
+    margin-top: 1.5%
+    margin-bottom: 1.5%
+  &.lp-boxes-rows-1 .lp-boxes-margins .lp-box
+    margin-top: 1em
+    margin-bottom: 1em
+  &.lp-boxes-rows-4 .lp-box:nth-child(4n), &.lp-boxes-rows-3 .lp-box:nth-child(3n), &.lp-boxes-rows-2 .lp-box:nth-child(2n)
+    margin-right: 0
+  &.lp-boxes-rows-4 .lp-box:nth-child(4n+1), &.lp-boxes-rows-3 .lp-box:nth-child(3n+1), &.lp-boxes-rows-2 .lp-box:nth-child(2n+1)
+    clear: both
+
+.lp-box-image
+  position: relative
+
+.lp-box .lp-box-image > img
+  position: relative
+  z-index: 10
+  display: block
+  width: 100%
+  height: 100%
+
+.lp-box-image::before
+  content: "\e825"
+  position: absolute
+  z-index: 2
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  width: 100px
+  height: 100px
+  margin: auto
+  font-family: 'Elusive'
+  font-size: 100px
+  line-height: 1
+
+.lp-box-title
+  text-transform: uppercase
+  letter-spacing: 1.5px
+  line-height: 1.3
+  a
+    color: inherit
+    &:hover
+      color: inherit
+
+.lp-box-text
+  margin-top: 1em
+
+.lp-box-text-inside
+  line-height: 1.5
+
+.lp-box-readmore
+  display: inline-block
+  clear: both
+  float: none
+  margin: 1.5em auto 1px
+  text-align: center
+  -webkit-transition: .5s all ease-in-out
+  transition: .5s all ease-in-out
+
+.lp-box-link
+  display: none
+
+/* Animated boxes
+
+.lp-boxes-animated
+  .lp-box-image::after
+    content: ""
+    position: absolute
+    z-index: 1
+    display: block
+    width: 100%
+    height: 100%
+    background: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.3) 100%)
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.3) 100%)
+  .lp-box-overlay
+    position: absolute
+    z-index: 20
+    width: 100%
+    height: 100%
+    top: 0
+    bottom: 0
+    opacity: 0
+
+.lp-box
+  &.in-direction-left .lp-box-overlay
+    -webkit-animation: .4s in-direction-left forwards
+    animation: .4s in-direction-left forwards
+  &.in-direction-right .lp-box-overlay
+    -webkit-animation: .4s in-direction-right forwards
+    animation: .4s in-direction-right forwards
+  &.in-direction-up .lp-box-overlay
+    -webkit-animation: .4s in-direction-up forwards
+    animation: .4s in-direction-up forwards
+  &.in-direction-down .lp-box-overlay
+    -webkit-animation: .4s in-direction-down forwards
+    animation: .4s in-direction-down forwards
+  &.out-direction-left .lp-box-overlay
+    -webkit-animation: .4s out-direction-left forwards
+    animation: .4s out-direction-left forwards
+  &.out-direction-right .lp-box-overlay
+    -webkit-animation: .4s out-direction-right forwards
+    animation: .4s out-direction-right forwards
+  &.out-direction-up .lp-box-overlay
+    -webkit-animation: .4s out-direction-up forwards
+    animation: .4s out-direction-up forwards
+  &.out-direction-down .lp-box-overlay
+    -webkit-animation: .4s out-direction-down forwards
+    animation: .4s out-direction-down forwards
+
+@-webkit-keyframes in-direction-left
+  from
+    opacity: 1
+    left: 100%
+
+  to
+    opacity: 1
+    left: 0
+
+
+@keyframes in-direction-left
+  from
+    opacity: 1
+    left: 100%
+
+  to
+    opacity: 1
+    left: 0
+
+
+@-webkit-keyframes in-direction-right
+  from
+    opacity: 1
+    left: -100%
+
+  to
+    opacity: 1
+    left: 0
+
+
+@keyframes in-direction-right
+  from
+    opacity: 1
+    left: -100%
+
+  to
+    opacity: 1
+    left: 0
+
+
+@-webkit-keyframes in-direction-up
+  from
+    opacity: 1
+    top: 100%
+
+  to
+    opacity: 1
+    top: 0
+
+
+@keyframes in-direction-up
+  from
+    opacity: 1
+    top: 100%
+
+  to
+    opacity: 1
+    top: 0
+
+
+@-webkit-keyframes in-direction-down
+  from
+    opacity: 1
+    top: -100%
+
+  to
+    opacity: 1
+    top: 0
+
+
+@keyframes in-direction-down
+  from
+    opacity: 1
+    top: -100%
+
+  to
+    opacity: 1
+    top: 0
+
+
+@-webkit-keyframes out-direction-left
+  from
+    opacity: 1
+    left: 0
+
+  to
+    opacity: 1
+    left: -100%
+
+
+@keyframes out-direction-left
+  from
+    opacity: 1
+    left: 0
+
+  to
+    opacity: 1
+    left: -100%
+
+
+@-webkit-keyframes out-direction-right
+  from
+    opacity: 1
+    left: 0
+
+  to
+    opacity: 1
+    left: 100%
+
+
+@keyframes out-direction-right
+  from
+    opacity: 1
+    left: 0
+
+  to
+    opacity: 1
+    left: 100%
+
+
+@-webkit-keyframes out-direction-up
+  from
+    opacity: 1
+    top: 0
+
+  to
+    opacity: 1
+    top: -100%
+
+
+@keyframes out-direction-up
+  from
+    opacity: 1
+    top: 0
+
+  to
+    opacity: 1
+    top: -100%
+
+
+@-webkit-keyframes out-direction-down
+  from
+    opacity: 1
+    top: 0
+
+  to
+    opacity: 1
+    top: 100%
+
+
+@keyframes out-direction-down
+  from
+    opacity: 1
+    top: 0
+
+  to
+    opacity: 1
+    top: 100%
+
+
+.lp-boxes-animated
+  .lp-box-content
+    position: absolute
+    z-index: 30
+    width: 100%
+    top: 50%
+    right: 0
+    left: 0
+    padding: 4% 8%
+    color: #DDD
+    opacity: 1
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+  .lp-box-title
+    margin: 0
+    font-weight: 400
+    color: #FFF
+  .lp-box-text
+    position: relative
+    top: 30px
+    overflow: hidden
+    max-height: 0
+    opacity: 0
+    -webkit-transition: 1s max-height ease-out, .6s .1s opacity ease-out, .4s .1s top ease-out
+    transition: 1s max-height ease-out, .6s .1s opacity ease-out, .4s .1s top ease-out
+  .lp-box:hover .lp-box-text
+    opacity: 1
+    top: 0
+  .lp-box-text-inside
+    margin: 1em auto
+  .lp-box-readmore
+    padding: .6em 1.2em
+    font-size: .8em
+    font-weight: 400
+    border: 2px solid
+    letter-spacing: 2px
+    text-transform: uppercase
+    color: #FFF
+    opacity: 0.7
+  .lp-box .lp-box-readmore
+    > i:before
+      position: relative
+      left: -3px
+      line-height: 1.6
+      vertical-align: top
+      -webkit-transition: .3s all ease-in-out
+      transition: .3s all ease-in-out
+    &:hover > i:before
+      left: 2px
+
+/* Animated boxes 2
+
+.lp-boxes-animated2
+  .lp-box-overlay
+    opacity: 0
+    -webkit-transform: scale(0.5)
+    transform: scale(0.5)
+    -webkit-transition: .3s ease-out all
+    transition: .3s ease-out all
+  .lp-box:hover .lp-box-overlay
+    opacity: 1
+    -webkit-transform: scale(1)
+    transform: scale(1)
+  .lp-box-text
+    -webkit-transition: .5s max-height ease-out, .2s .3s opacity ease-out, .2s .3s left ease-out
+    transition: .5s max-height ease-out, .2s .3s opacity ease-out, .2s .3s left ease
+    left: -100px
+    top: 0
+  .lp-box
+    &:hover .lp-box-text
+      opacity: 1
+      left: 0
+    .lp-box-text-inside
+      text-align: justify
+
+/* Static boxes
+
+.lp-boxes-static
+  .lp-box-content
+    overflow: hidden
+    padding: 0 2em 1em
+    -webkit-transition: .5s border ease-in-out
+    transition: .5s border ease-in-out
+  .lp-box-overlay
+    position: absolute
+    z-index: 10
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    opacity: 0
+    -webkit-transition: .4s all ease-in-out
+    transition: .4s all ease-in-out
+  .lp-box-image:hover .lp-box-overlay
+    opacity: 1
+  .lp-box-link
+    display: block
+    position: absolute
+    z-index: 15
+    top: 100%
+    right: 0
+    left: 0
+    margin: 0 auto
+    width: 40px
+    height: 40px
+    border: 2px solid #fff
+    border-radius: 100px
+    line-height: 36px
+    font-weight: bold
+    color: #FFF
+    opacity: 0
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+    -webkit-transition: .3s .15s top ease-in-out, .3s .15s opacity ease-in-out
+    transition: .3s .15s top ease-in-out, .3s .15s opacity ease-in-out
+  .lp-box-image:hover .lp-box-link
+    top: 50%
+    opacity: 1
+  .lp-box-link
+    &:hover
+      color: #FFF
+    i
+      display: inline-block
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      margin: auto
+      font-family: "fluida-blocks"
+      font-size: 1em
+      -webkit-transform: rotate(-90deg)
+      -ms-transform: rotate(-90deg)
+      transform: rotate(-90deg)
+      -webkit-transition: .15s all ease-in-out
+      transition: .15s all ease-in-out
+    &:hover i
+      -webkit-transform: rotate(0)
+      -ms-transform: rotate(0)
+      transform: rotate(0)
+  .lp-box-title
+    margin: 1em 0 0.5em
+
+/* Static boxes 2
+
+.lp-boxes-static2 .lp-boxes-inside
+  display: block
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-flow: row wrap
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  flex-flow: row wrap
+
+.lp-boxes.lp-boxes-static2 .lp-boxes-margins .lp-box
+  margin-bottom: 2em
+
+.lp-boxes-static2
+  .lp-box-content
+    padding-bottom: 1.5em
+  .lp-box-title
+    text-transform: none
+    letter-spacing: 0
+  .lp-box-text-inside
+    text-align: justify
+
+/* Portofolio items
+
+.lp-portfolio
+  display: block
+  float: none
+  width: 100%
+  overflow: hidden
+  .lp-portfolio-inside
+    padding: 3em 0
+
+.lp-port
+  display: block
+  float: left
+  text-align: center
+  overflow: hidden
+  position: relative
+  /* !!! do not apply transitions on port items because it messes masonry's animations !!!
+
+.lp-portfolio
+  &.lp-portfolio-rows-6 .lp-port
+    width: 16.66666%
+  &.lp-portfolio-rows-5 .lp-port
+    width: 20%
+  &.lp-portfolio-rows-4 .lp-port
+    width: 25%
+  &.lp-portfolio-rows-3 .lp-port
+    width: 33.333333%
+  &.lp-portfolio-rows-2 .lp-port
+    width: 50%
+  &.lp-portfolio-rows-1 .lp-port
+    width: 100%
+
+.lp-port-text
+  display: none
+
+.lp-port-image
+  position: relative
+  overflow: hidden
+
+.lp-port
+  .lp-port-image > img
+    position: relative
+    display: block
+    z-index: 10
+    -webkit-filter: grayscale(80%)
+    filter: grayscale(80%)
+    -webkit-transition: 1s ease all
+    transition: 1s ease all
+  &:hover .lp-port-image > img
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+    -webkit-transform: scale(1.1)
+    transform: scale(1.1)
+
+.lp-port-text
+  margin-top: 1em
+
+.lp-port-text-inside
+  line-height: 1.5
+
+.lp-port-tax
+  display: none
+
+.lp-portfolio
+  .lp-port
+    overflow: hidden
+    -webkit-transition: .5s border ease-in-out
+    transition: .5s border ease-in-out
+  .lp-port-title::after
+    position: relative
+    display: inline-block
+    margin: 0 0.1em 0 -0.5em
+    opacity: 0
+    font-family: "elusive"
+    content: "\e806"
+    line-height: inherit
+    -webkit-transition: .2s all ease
+    transition: .2s all ease
+  .lp-port:hover .lp-port-title::after
+    margin-left: 0.5em
+    opacity: 1
+  .lp-port-title
+    position: absolute
+    z-index: 15
+    left: 0
+    bottom: 20px
+    margin: .5em 20px
+    padding: 0 .5em
+    background: rgba(255, 255, 255, 0.9)
+    font-size: 1.3em
+    line-height: 1.3
+    letter-spacing: 2px
+    text-transform: uppercase
+
+.lp-port-readmore
+  position: relative
+  right: 0
+  left: 0
+  display: table
+  margin: 0 auto 3em
+  padding: 0.3em 2em
+  border: 2px solid
+  font-size: .9em
+  line-height: 3
+  text-transform: uppercase
+  letter-spacing: 3px
+  font-weight: 300
+  text-align: center
+  color: inherit
+  opacity: 0.5
+
+/* LP Text
+
+.lp-text
+  position: relative
+  display: block
+  float: none
+  clear: both
+  width: 100%
+  padding: 3em 0
+  background-attachment: fixed
+  background-position: center center
+
+.lp-text-overlay
+  position: absolute
+  z-index: 2
+  left: 0
+  top: 0
+  display: block
+  height: 100%
+  width: 100%
+  /*background: rgba(0, 0, 0, .5);
+  + .lp-text-inside
+    color: #EEE
+
+.lp-text-inside
+  position: relative
+  z-index: 3
+
+.main .lp-text-title
+  margin-top: 0
+  text-align: center
+
+.lp-text-title + .lp-text-content
+  margin-top: 3em
+
+/* LP Posts
+
+#lp-posts
+  display: block
+  float: none
+  clear: both
+  padding: 5em 0
+
+#lp-page
+  display: block
+  float: none
+  clear: both
+  padding: 5em 0
+  #comments
+    display: none
+
+/* AJAX LOAD MORE POSTS BUTTON
+
+#cryout_ajax_more_trigger
+  position: relative
+  display: table
+  float: none
+  clear: both
+  min-width: 200px
+  margin: 2em auto
+  border: 2px solid
+  padding: .3em 2em
+  text-align: center
+  line-height: 3
+  cursor: pointer
+  text-transform: uppercase
+  letter-spacing: 3px
+  opacity: .4
+  -webkit-transition: all .5s ease-in-out
+  transition: all .5s ease-in-out
+  > span
+    font-size: .9em
+    position: relative
+    &:before
+      content: '\e84d'
+      position: relative
+      display: inline-block
+      margin: auto
+      font-size: .8em
+      line-height: 3
+      margin-right: 1em
+      font-family: "elusive"
+  &:hover
+    opacity: 1
+  &.cryout_click_loading > span:before
+    -webkit-animation: icon-load 1s linear infinite
+    animation: icon-load 1s linear infinite
+
+@keyframes icon-load
+  to
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes icon-load
+  to
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+/*--------------------------------------------------------------
+ *	# POST FORMATS
+ *--------------------------------------------------------------
+
+span.entry-format
+  display: block
+  position: absolute
+  top: .5em
+  right: .5em
+  width: 2em
+  height: 2em
+  border: 1px solid rgba(0, 0, 0, 0.05)
+  font-size: 1.2em
+  text-align: center
+  line-height: 2
+  background: rgba(0, 0, 0, 0.03)
+  a
+    -webkit-transition: .4s all ease
+    transition: .4s all ease
+
+.entry-format > i:before
+  cursor: default
+
+/* ## ASIDES
+
+.format-aside
+  border-top: 7px dashed transparent
+  .entry-title, .author, .bl_categ
+    display: none
+
+/* ## GALLERIES
+
+.gallery
+  margin: 0 -1% 1.75em
+
+.gallery-item
+  display: inline-block
+  width: 100%
+  max-width: 33.33%
+  padding: 0 1% 2%
+  vertical-align: top
+  text-align: center
+
+.gallery-columns-1 .gallery-item
+  max-width: 100%
+
+.gallery-columns-2 .gallery-item
+  max-width: 50%
+
+.gallery-columns-4 .gallery-item
+  max-width: 25%
+
+.gallery-columns-5 .gallery-item
+  max-width: 20%
+
+.gallery-columns-6 .gallery-item
+  max-width: 16.66%
+
+.gallery-columns-7 .gallery-item
+  max-width: 14.28%
+
+.gallery-columns-8 .gallery-item
+  max-width: 12.5%
+
+.gallery-columns-9 .gallery-item
+  max-width: 11.11%
+
+.gallery-icon img
+  margin: 0 auto
+
+.gallery-caption
+  display: block
+  padding-top: 0.5em
+  font-size: .8em
+  line-height: 1.5
+  font-style: italic
+
+.gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption
+  display: none
+
+/* ## CHAT
+
+.format-chat p
+  font-family: Monaco, "Courier New", monospace
+
+/* ## QUOTE
+
+.format-quote blockquote
+  font-size: 1.1em
+  font-family: Georgia, "Bitstream Charter", serif
+  p
+    font-size: 1.1em
+    font-family: Georgia, "Bitstream Charter", serif
+
+/* ## STATUS
+
+.format-status
+  .entry-title
+    /*display:none;
+  .avatar
+    display: block
+    float: left
+    width: auto
+    margin-top: .5em
+    margin-right: 1em
+
+/* ## ATTACHMENT PAGES
+
+.attachment .entry-content .entry-caption
+  margin-top: 2em
+  font-size: 1.4em
+
+/*--------------------------------------------------------------
+ *	# COMMENTS
+ *--------------------------------------------------------------
+
+#comments
+  clear: both
+
+.comment-navigation
+  padding: 0 0 1.5em 0
+  .nav-next, .nav-previous
+    display: block
+    float: left
+    margin-right: 1em
+
+#comments-title
+  font-size: 1.8em
+
+#reply-title
+  font-size: 1.8em
+  small
+    font-size: 50%
+
+.main #comments-title
+  margin-top: 2em
+  margin-bottom: 1.5em
+  line-height: 1.5
+
+#comments-title span
+  font-weight: 300
+
+.main .commentlist
+  margin-left: 0
+
+.commentlist
+  > li
+    list-style: none
+  .comment-body
+    clear: both
+    overflow: hidden
+    padding: 1em
+    border: 1px solid transparent
+    line-height: 1.7
+  .pingback
+    margin-bottom: 1em
+    padding: 1em
+    border: 1px solid transparent
+
+.main .commentlist .pingback p
+  margin: 0
+
+.commentlist
+  .pingback .url
+    font-style: italic
+  li:last-child
+
+#comments .comment-body
+  p:last-child
+    margin-bottom: 0
+  blockquote p:last-child
+    margin-bottom: 1em
+
+.main .commentlist
+  img.avatar
+    float: left
+    overflow: hidden
+    height: 60px
+    width: 60px
+    padding: 5px
+    border-radius: 100%
+    -webkit-transform: rotateY(0deg)
+    -ms-transform: rotateY(0deg)
+    transform: rotateY(0deg)
+    -webkit-transition: all .5s ease-in-out
+    transition: all .5s ease-in-out
+  .comment-header:hover img.avatar
+    padding: 0
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+.comment-header
+  display: block
+  float: none
+  overflow: hidden
+  padding: 0 1em
+
+.comment-author
+  display: inline
+  float: left
+  line-height: 65px
+  .author-name
+    padding: 0 .8em
+    font-size: 1.2em
+
+.commentlist .author-name
+  font-weight: 300
+  text-decoration: underline
+  a
+    font-weight: 300
+    text-decoration: underline
+
+.comment-meta
+  display: inline
+  float: left
+  font-size: .9em
+  line-height: 65px
+  a
+    &:link, &:visited
+      text-decoration: none
+    &:active, &:hover
+
+.comment-date
+  display: none
+
+.fluida-comment-date-published
+  .comment-date
+    display: inline
+  .comment-timediff
+    display: none
+
+.commentlist
+  .even, .bypostauthor
+
+.comment-await
+  display: inline-block
+  padding: 3px 0
+  font-size: 0.9em
+
+.comment
+  .reply
+    display: block
+    overflow: hidden
+  article
+    display: block
+    margin-bottom: 2em
+    border: 0
+    border-radius: 0
+    box-shadow: none
+  .reply a
+    display: inline-block
+    float: right
+    position: relative
+    width: auto
+    padding: .2em .3em 0 .3em
+    font-size: .9em
+    text-align: right
+    text-transform: uppercase
+    letter-spacing: 2px
+    -webkit-transition: all .3s ease
+    transition: all .3s ease
+    &:hover
+      opacity: 1
+      color: inherit
+
+a.comment-edit-link, .comment .reply a:hover, a.comment-edit-link:hover
+
+.commentlist .children
+  margin: 0
+  margin-left: 1.5em
+  background-image: none
+  list-style: none
+  li
+    margin: 0
+    border: none
+
+.main
+  .nocomments, .nocomments2
+    margin-bottom: 0
+
+.hideme
+  display: none
+
+/*--------------------------------------------------------------
+ *	## COMMENTS FORM
+ *--------------------------------------------------------------
+
+#respond
+  margin-top: 2em
+  .comment-notes
+    margin-bottom: 1.5em
+
+.form-allowed-tags
+  line-height: 1
+
+.children #respond
+  min-width: 400px
+  margin: 0 4em 0 0
+
+#reply-title
+  margin: 0
+  padding: 0
+  line-height: 1.5
+  font-weight: 300
+
+#comments-list
+  #respond
+    margin: 0 0 1.5em 0
+  ul #respond
+    margin: 0
+
+#cancel-comment-reply-link
+  font-size: 1em
+  font-weight: normal
+  line-height: 1.5
+
+#respond .required
+
+#commentform
+  display: block
+
+.fluida-comment-placeholder
+  #commentform > p
+    font-size: 0.9em
+  #respond
+    .comment-form-comment label, .comment-form-author label, .comment-form-email label, .comment-form-url label
+      display: none
+
+#respond
+  .comment-form-cookies-consent
+    clear: both
+  input:not([type="checkbox"]):not([type="radio"])
+    width: 100%
+
+.comment-form-comment textarea
+  display: block
+  float: none
+  width: 100%
+
+.comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label, .comment-form-author input, .comment-form-email input, .comment-form-url input, .comment-form-comment input
+  display: block
+  float: none
+
+#respond
+  input:hover, textarea:hover
+  .form-allowed-tags
+    display: block
+    float: none
+    clear: both
+    width: 100%
+    font-size: 1em
+    line-height: 1.5
+    code
+      font-size: 1em
+  .form-submit
+    margin: 1em 0
+    clear: both
+    text-align: right
+    input
+      width: auto
+      &[type="submit"], &[type="reset"]
+        width: auto
+    button
+      width: auto
+    input#submit:hover
+      cursor: pointer
+
+.button
+  padding: 4px 7px
+  border: 1px solid transparent
+  -webkit-transition: background-color .2s ease
+  transition: background-color .2s ease
+  &:hover
+    cursor: pointer
+
+/*--------------------------------------------------------------
+ *	# WIDGET AREAS
+ *--------------------------------------------------------------
+
+/* ## MAIN WIDGETS AREAS
+
+.widget-area ul
+  padding: 0
+  border: none
+  list-style: none
+  list-style-image: none
+  ul
+    padding: 0
+    border: none
+    list-style: none
+    list-style-image: none
+
+.yoyo > .widget-container
+  padding: 0
+  border: none
+  list-style: none
+  list-style-image: none
+
+.widget-container
+  margin: 0 0 1.5em 0
+  overflow: hidden
+  > *
+    max-width: 100%
+  ul
+    ul
+      margin-left: 1em
+      margin-top: 1em
+    li
+      display: block
+      float: none
+      margin-bottom: 0.5em
+      word-wrap: break-word
+
+.widget-title
+  margin-bottom: 1em
+  text-align: left
+  text-transform: uppercase
+  span
+    line-height: 2.2
+
+.widget-area
+  a
+    &:link, &:visited
+      text-decoration: none
+      word-wrap: break-word
+    &:active, &:hover
+  .entry-meta
+    font-size: 1em
+
+/* ## BEFORE CONTENT AND AFTER CONTENT WIDGET AREAS
+
+.yoyo .widget-title
+  background: none
+  padding: 0
+  margin: 0
+
+/* ## LEFT SIDEBAR MENU
+
+nav.sidebarmenu
+  display: block
+  width: calc(100% + 4em)
+  margin: 0.5em 0 2em -2em
+  border-bottom: 1px solid transparent
+  li a
+    display: block
+    float: none
+    padding: .6em 2em
+    border-top: 1px solid transparent
+    font-weight: 300
+    text-transform: uppercase
+    -webkit-transition: .3s ease-in
+    transition: .3s ease-in
+    &:hover
+      padding-left: 2.3em
+      text-decoration: underline
+
+/* ## CALENDAR WIDGET
+
+#wp-calendar
+  width: 100%
+  font-size: .9em
+  caption
+    padding-bottom: .3em
+    text-align: left
+    font-size: 1em
+    font-weight: bold
+  tbody td
+    border: 1px solid transparent
+  th, td
+    text-align: center
+  tbody td
+    &:hover
+      opacity: 0.8
+      filter: alpha(opacity = 80)
+    a
+      margin: 0
+      padding: 0
+      border: none
+      background: none
+
+#wp-tbody .pad
+  background: none
+
+#wp-calendar tfoot #next
+  text-align: right
+
+/* ## TAG CLOUD WIDGET
+
+.fluida-normalizedtags #content .tagcloud a
+  display: inline-block
+  margin: 5px 5px 5px 0
+  padding: 2px 10px
+  font-size: .9em !important
+  /* !important needed to override inline sizing
+  -webkit-transition: background .3s ease
+  transition: background .3s ease
+  &:hover
+
+/* ## EMPTY PAGE
+
+.main .content-empty-page
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  -ms-flex-flow: row
+  flex-flow: row
+  width: 100%
+  margin: 2em auto
+
+.content-empty-page > .widget-container
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  float: left
+  list-style-type: none
+  width: 31%
+  margin-right: 2em
+  &:last-child
+    margin-right: 0
+
+/*--------------------------------------------------------------
+ *	# WIDGETS
+ *--------------------------------------------------------------
+
+/* ## Cryout Tabs
+
+.cryout-wtabs-nav
+  display: block
+  overflow: hidden
+  margin-bottom: 20px
+  text-align: center
+
+.widget-container .cryout-wtab
+  margin-bottom: 0
+
+.widget-area .cryout-wtabs-nav
+  border-bottom: 2px solid transparent
+
+.cryout-wtabs-nav
+  &.tab-count-1 li
+    width: 100%
+  &.tab-count-2 li
+    width: 50%
+  &.tab-count-3 li
+    width: 33.333%
+  &.tab-count-4 li
+    width: 25%
+
+ul.cryout-wtabs-nav > li
+  display: block
+  float: left
+
+.cryout-wtabs-container > ul > li
+  display: block
+  float: left
+  clear: both
+
+ul
+  &.cryout-wtabs-nav li
+    a
+      display: block
+      padding: .5em 0
+      font-size: 18px
+      background: rgba(0, 0, 0, 0.05)
+      color: inherit
+      &:hover
+        background: rgba(0, 0, 0, 0.1)
+        color: inherit
+    &.active a
+      color: #FFF
+    a span
+      display: none
+  &.cryout-wtab li, &.cryout-wposts li
+    overflow: hidden
+    display: block
+    width: 100%
+    margin-bottom: 20px
+    padding-bottom: 20px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07)
+    font-weight: 400
+    line-height: 1.4
+  &.cryout-wtab li:last-child, &.cryout-wposts li:last-child
+    border: none
+
+.cryout-wtab a, .cryout-wposts a
+  -webkit-transition: all 0.2s ease
+  transition: all 0.2s ease
+
+.cryout-wtab img, .cryout-wposts img
+  display: block
+  width: 100%
+  height: auto
+  -webkit-transform: translateZ(0)
+  transform: translateZ(0)
+  -webkit-backface-visibility: hidden
+  backface-visibility: hidden
+
+.cryout-wtab
+  &.thumbs-enabled li
+    padding-left: 94px
+  .tab-item-thumbnail
+    width: 80px
+    margin-left: -94px
+    float: left
+    position: relative
+    -webkit-transition: all 1s ease
+    transition: all 1s ease
+
+.cryout-wposts .post-item-thumbnail
+  position: relative
+  -webkit-transition: all 1s ease
+  transition: all 1s ease
+
+.cryout-wtab
+  &.avatars-enabled li
+    padding-left: 62px
+  .tab-item-avatar
+    margin-left: -62px
+    width: 48px
+    float: left
+    -webkit-transition: all 1s ease
+    transition: all 1s ease
+  .tab-item-category
+    text-transform: uppercase
+    font-size: 12px
+    line-height: 1.2
+    letter-spacing: 1px
+    opacity: 0.5
+    -webkit-transition: all 0.2s ease-out
+    transition: all 0.2s ease-out
+
+.cryout-wposts .post-item-category
+  text-transform: uppercase
+  font-size: 12px
+  line-height: 1.2
+  letter-spacing: 1px
+  opacity: 0.5
+  -webkit-transition: all 0.2s ease-out
+  transition: all 0.2s ease-out
+
+.cryout-wtab .tab-item-category a, .cryout-wposts .post-item-category a
+  border-bottom: 1px solid transparent
+  -webkit-transition: all 0.2s ease-out
+  transition: all 0.2s ease-out
+
+.cryout-wtab .tab-item-category a:hover, .cryout-wposts .post-item-category a:hover
+  border-bottom: 1px solid
+
+.cryout-wtab .tab-item-category a, .cryout-wposts .post-item-category a
+  color: inherit
+
+.cryout-wtab
+  .tab-item-title, .tab-item-comment
+    margin: 5px 0
+    word-wrap: break-word
+
+.cryout-wposts .post-item-title
+  margin: 5px 0
+  word-wrap: break-word
+
+.cryout-wtab
+  .tab-item-date, .tab-item-name
+    text-transform: uppercase
+    font-size: 12px
+    opacity: 0.35
+
+.cryout-wposts .post-item-date
+  text-transform: uppercase
+  font-size: 12px
+  opacity: 0.35
+
+.cryout-wtab
+  .thumb-icon.small
+    bottom: 8px
+    left: 8px
+  li:hover
+    .tab-item-thumbnail, .tab-item-avatar
+      opacity: 0.75
+
+.cryout-wposts li:hover .post-item-thumbnail
+  opacity: 0.75
+
+.cryout-wtab li:hover .thumb-icon, .cryout-wposts li:hover .thumb-icon
+  background: #fff
+  color: #222
+
+.cryout-wtab .tab-item-category a, .cryout-wposts .post-item-category a
+  /*color: #26abd3;
+
+.cryout-wtab li:hover
+  .tab-item-title a, .tab-item-comment a
+    /*color: #26abd3;
+
+.cryout-wposts
+  li:hover .post-item-title a
+    /*color: #26abd3;
+  .post-item-thumbnail
+    margin-bottom: 10px
+  .post-item-title
+    font-size: 16px
+    line-height: 1.5em
+
+/* ## Cryout Posts
+
+.s1 .cryout-wposts
+  .post-item-title
+    font-size: 18px
+    line-height: 1.4em
+    font-weight: 300
+  .post-item-category, .post-item-date
+    font-size: 14px
+
+/* ## Cryout Related Posts
+
+.main .related-posts
+  display: block
+  overflow: hidden
+  margin-left: 0
+  margin-bottom: 2em
+
+.related-posts
+  li
+    display: inline
+    float: left
+    width: 31.33%
+    margin-right: 3%
+    &:last-child
+      margin-right: 0
+  article
+    margin-bottom: 0
+
+.related-thumbnail
+  position: relative
+  -webkit-transition: all 1s ease
+  transition: all 1s ease
+
+.related-posts li:hover .related-thumbnail
+  opacity: 0.75
+
+.related-thumbnail
+  img
+    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
+    -webkit-backface-visibility: hidden
+    backface-visibility: hidden
+  .related-comments
+    position: absolute
+    right: 0
+    bottom: 0
+    padding: 0 .5em
+    color: #777
+    background: rgba(255, 255, 255, 1)
+
+.related-comments i
+  margin-right: .25em
+
+.related-posts
+  .related-inside
+    padding-right: .5em
+  .related-title
+    display: block
+    margin-top: 0.5em
+    margin-bottom: 0
+    line-height: 1.3
+  .related-meta
+    font-size: .8em
+    font-weight: 300
+    opacity: .5
+
+/* ## Cryout About
+
+.cryout-about-image
+  display: inline-block
+  margin-bottom: 1em
+
+.cryout-about-text
+  font-size: .9em
+
+/* ## Cryout Contact
+
+.widget_cryout_contact
+  address
+    padding-left: 0
+  .map
+    margin-top: 2em
+  address
+    > span
+      display: block
+      float: none
+      clear: both
+      margin: 7px 0
+    a
+      color: inherit
+      border-bottom: 1px solid transparent
+      transition: .2s ease-out border-color
+      transition: .2s ease-out border-color
+      &:hover
+        border-color: inherit
+    > span i
+      display: inline-block
+      width: 30px
+      float: left
+      font-size: .9em
+      + strong
+        display: none
+
+.address-block
+  display: block
+  overflow: hidden
+
+/* ## Cryout Socials
+
+.widget-socials
+
+/* ## Cryout Portfolio
+
+.widget-portfolio
+  overflow: hidden
+
+.widget-portfolio-item
+  position: relative
+  display: inline-block
+  float: left
+  margin-bottom: 2%
+
+.portfolio-columns-1 .widget-portfolio-item
+  width: 100%
+  float: none
+  clear: both
+
+.portfolio-columns-2 .widget-portfolio-item
+  width: 48%
+  margin-right: 2%
+
+.portfolio-columns-3 .widget-portfolio-item
+  width: 31.333%
+  margin-right: 2%
+
+.portfolio-columns-4 .widget-portfolio-item
+  width: 23%
+  margin-right: 2%
+
+.portfolio-columns-5 .widget-portfolio-item
+  width: 18%
+  margin-right: 2%
+
+.portfolio-columns-6 .widget-portfolio-item
+  width: 14.666%
+  margin-right: 2%
+
+.portfolio-columns-7 .widget-portfolio-item
+  width: 12.285%
+  margin-right: 2%
+
+.portfolio-columns-8 .widget-portfolio-item
+  width: 10.5%
+  margin-right: 2%
+
+.portfolio-overlay
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  text-align: center
+  margin: auto
+  background: rgba(0, 0, 0, 0.8)
+  opacity: 0
+  -webkit-transition: .25s all ease-in-out
+  transition: .25s all ease-in-out
+
+.widget-portfolio-item:hover .portfolio-overlay
+  opacity: 1
+
+.portfolio-title
+  display: block
+  position: relative
+  top: 60%
+  padding: 1em
+  text-align: center
+  font-size: .85em
+  line-height: 1.3
+  font-weight: bold
+  text-transform: uppercase
+  color: #CCC
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+  -webkit-transition: .25s all ease-in-out
+  transition: .25s all ease-in-out
+
+.widget-portfolio-item:hover .portfolio-title
+  top: 50%
+
+/* Cryout GetInTouch
+
+.cryoutgetintouch-extra
+  font-size: 1.1em
+  font-weight: bold
+
+.widget_cryout_getintouch
+  > div
+    line-height: 1.8
+    i.icon
+      float: left
+      opacity: 0.5
+      margin-right: .3em
+  .cryoutgetintouch-email a
+    color: inherit
+  .cryoutgetintouch-items > span
+    display: block
+    margin: 10px 0
+    font-size: 1em
+
+/* Padding fixes for custom widgets
+
+.widget_cryout_contact .widget-title + address, .widget_cryout_about .widget-title + .cryout-about-image, .widget_cryout_portfolio .widget-title + .widget-portfolio
+  padding-top: .5em
+
+/*--------------------------------------------------------------
+ *	# SEARCHFORM
+ *--------------------------------------------------------------
+
+.searchform
+  height: auto
+  max-width: 300px
+  border: 1px solid transparent
+
+.content-search
+
+.no-results .content-search
+  padding: 0
+
+/* ## SIDEBAR SEARCH
+
+.searchform input[type="search"]
+  z-index: 10000
+  right: 0
+  top: 0
+  position: fixed
+  width: 100%
+  height: 16%
+  -webkit-transition: color .3s ease
+  transition: color 0.3s ease
+
+.pagination li
+  color: black
+  float: left
+  padding: 8px
+  text-decoration: none
+  &.active
+    background-color: #9352b3
+    color: white
+    border-radius: 50px
+  &:hover:not(.active)
+    background-color: #ddd
+    border-radius: 50px
+
+#status span.status
+  display: none
+  font-weight: bold
+
+span.status
+  &.complete
+    color: green
+  &.incomplete
+    color: red
+    margin: 0.3em
+
+#status
+  &.complete span.status.complete, &.incomplete span.status.incomplete
+    display: inline
+
+#bvideo
+  all: unset
+  #bimg
+    height: 12%
+    width: 10%
+    top: 24%
+    padding: 0.5em 3em
+    position: absolute
+    &:hover
+      opacity: 0.8
+
+.pagination
+  > li > a
+    all: initial
+  li
+    color: black
+    float: left
+    text-decoration: none
+    text-align: center
+    transition: background-color .3s
+    font-size: 25px
+    a
+      font-size: 18px
+
+/* First make sure the video thumbnail images are responsive.
+
+img
+  max-width: 100%
+
+.bmain
+  margin: 0 10%
+
+.overview
+  line-height: 1.2em
+  height: 3em
+  overflow: hidden
+
+.headtext
+  line-height: 1em
+  font-size: 2.2em
+  padding: 0 2%
+
+/* 
+ *This is the starting grid for each video with thumbnails 4 across for the largest screen size.
+ *It's important to use percentages or there may be gaps on the right side of the page.
+
+.video
+  background: #fff
+  padding-bottom: 20px
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)
+  width: 31.33%
+  /* Thumbnails 4 across
+  margin: 1%
+  float: left
+  figure
+    height: 80%
+    overflow: hidden
+    a
+      display: block
+      margin: 0
+      padding: 0
+      border: none
+      line-height: 0
+  img
+    width: 100%
+    opacity: 1
+    height: 60%
+    &:hover, &:active, &:focus
+      opacity: 0.75
+
+/* 
+ *These keep the height of each video thumbnail consistent between YouTube and Vimeo.
+ *Each can have thumbnail sizes that vary by 1px and are likely break your layout.
+
+/* Media Queries - This is the responsive grid.
+
+@media (max-width: 1024px)
+  .video
+    width: 96%
+    /* Single column view.
+    float: none
+    display: block
+  body
+    padding: 0 4%
+
+/* These are my preferred rollover styles.
+
+.searchform
+  &::after
+    -webkit-transition: width .3s ease
+    transition: width .3s ease
+    /*	position: absolute;
+     *	
+     *	width: 3.5em;
+     *	height: 100%;
+     *	content: "";
+  &:hover::after
+    width: 100%
+
+.sidey .widget_search
+  padding: 0
+
+.searchform
+  .searchsubmit
+    display: block
+    position: absolute
+    right: 0
+    top: 0
+    z-index: 8
+    height: 4em
+    width: 3.5em
+    padding: 0
+    border: 0
+    font-size: 1em
+    font-family: "socials"
+    background: transparent
+    vertical-align: middle
+    cursor: pointer
+    -webkit-transform: rotateY(0)
+    -ms-transform: rotateY(0)
+    transform: rotateY(0)
+    -webkit-transition: .3s all ease-in-out
+    transition: .3s all ease-in-out
+  &:hover .searchsubmit
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+/* ## HEADER SEARCHFORM
+
+#access
+  > div > ul > li.menu-search-animated
+    text-align: center
+  .menu-search-animated
+    padding: 0 .3em
+    .searchform
+      display: none
+      &:after
+        display: none
+    .searchsubmit
+      display: none
+    .searchform input[type="search"]
+      -webkit-appearance: none
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      -webkit-box-shadow: none
+      -moz-box-shadow: none
+      border: 1px solid #e3e3e3
+      box-shadow: none
+      border-radius: 5px
+      font-size: 20px
+      /*   	    width: 100%;
+       *     padding: 10px 20px;
+       *     color: #666;
+       *     
+       *     height: auto;
+       *    
+       *     
+       *     
+       * 	    display: inline-block;
+       * 		    height: 60px;
+       *     border: 0;
+
+form
+  display: block
+  margin-top: 0em
+
+#access
+  .menu-main-search i.search-icon
+    display: inline-block
+    position: fixed
+    right: 10%
+    padding: 2%
+    top: -10
+  li.menu-main-search
+    max-width: 200px
+    padding: 0
+  .menu-main-search > a
+    padding-left: .4em
+    padding-right: .4em
+  i.search-icon
+    position: relative
+    z-index: 11
+    cursor: pointer
+    &:before
+      display: block
+      content: '\e86f'
+      font-family: "fluida-blocks"
+      font-style: normal
+      font-size: 80%
+
+.menu-main-search .search-icon:before
+
+/* ## FOOTER MENU SEARCHFORM
+
+li.menu-footer-search
+  position: relative
+  top: -.5em
+  max-width: 10em
+  .searchform
+    border: 0
+  .s
+    border-width: 0 0 1px 0
+  .searchform
+    .s, .searchsubmit
+
+.widget_rss
+  a.rsswidget:hover
+  .widget-title img
+    width: 11px
+    height: 11px
+
+/*--------------------------------------------------------------
+ *	# SOCIALS
+ *--------------------------------------------------------------
+
+/* ## GENERAL
+
+.socials
+  position: relative
+  float: initial
+
+.sidey .socials
+  display: table
+  float: none
+  margin: 0 auto 2em
+  font-size: .9em
+
+.socials a
+  display: block
+  float: left
+  position: relative
+  z-index: 99
+  overflow: hidden
+  padding: 0 .7em
+  span
+    display: none
+  &:before
+    -webkit-transform: rotateY(0)
+    -ms-transform: rotateY(0)
+    transform: rotateY(0)
+    -webkit-transition: -webkit-transform .3s ease-in-out, color .3s ease-in-out
+    -webkit-transition: color .3s ease-in-out, -webkit-transform .3s ease-in-out
+    transition: color .3s ease-in-out, -webkit-transform .3s ease-in-out
+    transition: transform .3s ease-in-out, color .3s ease-in-out
+    transition: transform .3s ease-in-out, color .3s ease-in-out, -webkit-transform .3s ease-in-out
+  &:hover:before
+    -webkit-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg)
+    transform: rotateY(180deg)
+
+/* ## HEADER SOCIALS
+
+#sheader
+  float: right
+  margin-left: .5em
+  a:before
+    font-size: .8em
+
+/* ## SIDEBAR SOCIALS
+
+#socials-left .socials, #socials-right .socials
+  display: table
+  margin: 0 auto
+
+/* ## FOOTER SOCIALS
+
+#sfooter
+  display: block
+  float: right
+  clear: right
+
+/*--------------------------------------------------------------
+ *	# MISCELLANEOUS
+ *--------------------------------------------------------------
+
+/* ## BACK TO TOP
+
+#toTop
+  display: block
+  position: fixed
+  right: 2em
+  bottom: 100px
+  z-index: 251
+  width: auto
+  height: auto
+  padding: .1em 1em
+  border: 1px solid rgba(0, 0, 0, 0.1)
+  font-size: 1.2em
+  opacity: 0
+  filter: alpha(opacity = 0)
+  cursor: pointer
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.1) inset
+  -webkit-transition: all .5s ease-in-out
+  transition: all .5s ease-in-out
+
+.fluida-totop-normal #toTop
+
+.fluida-totop-fixed #toTop
+  position: absolute
+
+.fluida-totop-disabled #toTop
+  display: none
+
+.icon-back2top:before
+  content: '\e809'
+  -webkit-transition: all .3s ease-in-out
+  transition: all .3s ease-in-out
+
+/* ## CUSTOM IMAGE BORDER
+
+.fluida-image-none
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+
+.fluida-image-one
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+    padding: 5px
+    border-bottom: 5px solid transparent
+
+.fluida-image-two
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+    border: 1em solid transparent
+
+.fluida-image-three
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+    padding: 0
+    border: 1px solid #222
+    box-shadow: 0 0 15px #ccc
+
+.fluida-image-four
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+    padding: .7em
+    border: 1px solid #DDD
+    box-shadow: 0 0 2px #CCC
+
+.fluida-image-five
+  .entry-content img[class*='align'], .entry-summary img[class*='align']
+    border-top: .5em solid transparent
+    border-bottom: .5em solid transparent
+    -webkit-transition: all .3s ease-in-out
+    transition: all .3s ease-in-out
+
+/* ## CUSTOM CAPTION LOOK
+
+.fluida-caption-zero .main .wp-caption .wp-caption-text
+
+.fluida-caption-one .main .wp-caption .wp-caption-text
+  margin-top: .7em
+  border-bottom: 1px solid transparent
+
+.fluida-caption-two .main .wp-caption .wp-caption-text
+  margin-top: .7em
+  padding: .5em
+
+/* ## BREADCRUMBS
+
+#breadcrumbs-container
+  display: block
+  float: none
+  overflow: hidden
+  width: 100%
+  margin-bottom: 1em
+
+#breadcrumbs
+  display: block
+  width: 100%
+  padding: .7em 0em
+  font-size: .9em
+
+.icon-homebread:before
+  content: '\e81f'
+  font-size: 1em
+  cursor: pointer
+
+#breadcrumbs-nav .icon-angle-right:before
+  padding: 0 .8em
+
+/* ## PAGINATION
+
+.pagination
+  display: table
+  float: none
+  clear: both
+  margin: 1.5em auto
+  border: 1px solid transparent
+  text-align: center
+  span, a
+    display: block
+    position: relative
+    float: left
+    height: 2.2em
+    width: 2.2em
+    margin-right: 1px
+    text-align: center
+    font-size: 1.4em
+    line-height: 2.2
+    text-decoration: none
+    -webkit-transition: all .3s ease-in-out
+    transition: all .3s ease-in-out
+  .dots
+    width: 3em
+    border: 0
+    background: none
+  a:hover, span:hover
+    width: 3em
+  .current
+
+/* ## CONTINUE READING
+
+.post-continue-container
+  overflow: hidden
+
+a.continue-reading-link
+  display: block
+  float: left
+  position: relative
+  overflow: hidden
+  padding: 0 1.2em
+  font-size: 1em
+  line-height: 3
+  border-radius: 0
+  -webkit-transition: .3s all ease-in-out
+  transition: .3s all ease-in-out
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    -webkit-transition: .5s all ease-in-out
+    transition: .5s all ease-in-out
+  &:hover:before
+    left: 100%
+
+.continue-reading-link span
+  position: relative
+  z-index: 10
+  &:after
+    position: absolute
+    right: -1.5em
+    opacity: 0
+    content: "..."
+    -webkit-transition: all .3s ease-in
+    transition: all .3s ease-in
+
+a.continue-reading-link
+  i.icon-angle-right
+    position: relative
+    left: 0
+    z-index: 10
+    margin-left: .5em
+    -webkit-transition: all .3s ease-in
+    transition: all .3s ease-in
+  &:hover
+    i.icon-angle-right
+      left: 2em
+      opacity: 0
+    span:after
+      opacity: 1
+
+/* ## BLOCKQUOTES
+
+.entry-content blockquote
+  display: table
+  float: none
+  clear: both
+  position: relative
+  width: auto
+  margin: 0 auto
+  padding: 1.5em
+  font-style: italic
+  font-weight: 400
+  &:before
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 0
+    content: '\e80f'
+    font-size: 1.1em
+    font-family: 'elusive'
+  &:after
+    position: absolute
+    right: 0
+    bottom: 0
+    z-index: 0
+    content: '\e80f'
+    font-size: 1.1em
+    font-family: 'elusive'
+    -webkit-transform: rotate(180deg)
+    -ms-transform: rotate(180deg)
+    transform: rotate(180deg)
+
+.main blockquote p
+  margin-bottom: 0
+
+/*--------------------------------------------------------------
+ *	# TEMPLATES
+ *--------------------------------------------------------------
+
+/* Template Contact
+
+.template-content
+  padding: 30px 0
+  margin: 20px 0 50px
+  border-top: 1px solid rgba(0, 0, 0, 0.1)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+.template-contact
+  .template-left-col, .template-right-col
+    display: inline-block
+    float: left
+    /*width: 47%;
+  .template-middle
+    display: block
+    overflow: hidden
+    margin: 50px auto
+  .template-left-col
+    /*margin-right: 6%;
+
+.template-right-col-inside
+  /*padding: 40px;
+   *background: rgba(0,0,0,.05);
+  > img
+    margin-bottom: 1em
+
+.template-contact
+  address > span
+    display: block
+    float: none
+    clear: both
+    overflow: hidden
+    margin: 10px 0
+    i
+      display: inline-block
+      float: left
+      margin-right: 10px
+      min-width: 100px
+      font-size: 1em
+  .template-map-col
+    margin-bottom: 50px
+
+.template-about
+  .template-content
+    margin: 50px 0 70px
+  .template-team
+    margin-top: 50px
+
+/*--------------------------------------------------------------
+ *	# PORTFOLIO
+ *--------------------------------------------------------------
+
+article .jetpack-portfolio-shortcode.masonry, #portfolio-masonry .jetpack-portfolio-shortcode
+  margin-left: -1%
+  margin-right: -1%
+
+article .jetpack-portfolio-shortcode div.portfolio-entry
+  margin-left: 1%
+  margin-right: 1%
+  margin-bottom: 2em
+  opacity: 0
+  -webkit-animation: .5s .25s nimation-portfolio-show ease forwards
+  animation: .5s .25s animation-portfolio-show ease forwards
+
+@-webkit-keyframes animation-portfolio-show
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+
+@keyframes animation-portfolio-show
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+
+.jetpack-portfolio-shortcode
+  &.column-3 div.portfolio-entry, &.column-4 div.portfolio-entry
+    margin-left: 1.15%
+    margin-right: 1.15%
+
+@media (max-width: 768px)
+  .jetpack-portfolio-shortcode
+    &.column-3 div.portfolio-entry, &.column-4 div.portfolio-entry
+      margin-left: 1%
+      margin-right: 1%
+
+@media (max-width: 480px)
+  .jetpack-portfolio-shortcode div.portfolio-entry
+    width: 100%
+
+#portfolio-filter
+  margin: 2em 0
+
+.lp-portfolio #portfolio-filter
+  display: table
+  margin: 3em auto
+
+#portfolio-filter > a
+  margin-right: 0.5em
+  color: inherit
+  &:not(:last-child)::after
+    content: "/"
+    position: relative
+    margin-left: 0.5em
+
+#portfolio-masonry
+  .portfolio-entry .project-types
+    display: none
+  .portfolio-entry-header
+    position: relative
+  .portfolio-entry
+    .portfolio-entry-title
+      position: absolute
+      z-index: 3
+      bottom: 20px
+      left: 0
+      display: inline-block
+      margin: 0 20px
+      padding: 0 .5em
+      font-size: 1.2em
+      line-height: 2
+      text-transform: uppercase
+      letter-spacing: 2px
+      font-weight: inherit
+      background-color: rgba(255, 255, 255, 0.9)
+      -webkit-transition: .3s ease all
+      transition: .3s ease all
+    &:hover .portfolio-entry-title
+      background-color: rgba(255, 255, 255, 1)
+    .portfolio-entry-title a::after
+      position: relative
+      margin-left: -0.5em
+      margin-right: 0.1em
+      font-family: elusive
+      content: "\e806"
+      color: inherit
+      opacity: 0
+      -webkit-transition: .3s ease all
+      transition: .3s ease all
+    &:hover .portfolio-entry-title a::after
+      margin-left: 0.5em
+      opacity: 1
+
+.main .jetpack-portfolio-shortcode .portfolio-entry .portfolio-entry-title
+  font-size: 2em
+
+.jetpack-portfolio-shortcode .portfolio-entry .portfolio-entry-meta div:last-child
+  /*padding-bottom: 0.7em;
+   *border-bottom: 1px solid transparent;
+
+.single article.jetpack-portfolio .entry-meta
+  margin-top: 3em
+  padding: 1em 2em
+  > span
+    display: block
+    float: none
+    line-height: 3
+
+article.jetpack-portfolio header
+  + .content-masonry
+  .entry-title + .taxonomy-description
+    margin-bottom: 0
+
+.jetpack-portfolio-shortcode
+  .portfolio-featured-image + .portfolio-entry-title
+    margin-top: 0.5em
+    margin-bottom: 0
+  .portfolio-entry-title + .portfolio-entry-meta
+    margin-top: 0
+  .portfolio-featured-image
+    display: block
+    position: relative
+    overflow: hidden
+    img
+      -webkit-filter: grayscale(68%)
+      filter: grayscale(80%)
+      -webkit-transition: 1s ease all
+      transition: 1s ease all
+  .portfolio-entry:hover .portfolio-featured-image img
+    -webkit-filter: grayscale(0)
+    filter: grayscale(0)
+    -webkit-transform: scale(1.1, 1.1)
+    -ms-transform: scale(1.1, 1.1)
+    transform: scale(1.1, 1.1)
+
+/*--------------------------------------------------------------
+ *	# CONDITIONALS
+ *--------------------------------------------------------------
+
+.single-post.fluida-comhide-in-posts .nocomments, .page.fluida-comhide-in-pages .nocomments, .fluida-hide-page-title .page h1.entry-title, .home.fluida-hide-page-title .page h2.entry-title, .fluida-hide-cat-title .page-header, .fluida-metahide-mainmenu #site-header-main, .fluida-metahide-headerimg #header-image-main-inside, .fluida-metahide-breadcrumbs #breadcrumbs-container, .fluida-metahide-colophon #colophon, .fluida-metahide-footer #footer
+  display: none
+
+.fluida-metahide-mainmenu #header-image-main
+  margin-top: 0
+
+/*--------------------------------------------------------------
+ *	# FIXES
+ *--------------------------------------------------------------
+
+/* ## Woocommerce
+
+.woocommerce
+  .product .entry-summary
+    clear: none
+  ul.products li.product h3
+    font-size: 1.3em
+    padding: 0 0 .5em 0
+  div.product form.cart
+    table td
+      padding: 0
+    .variations label
+      display: inline-block
+      padding-top: 10px
+
+.woocommerce-page #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce-page button.button.alt
+  font-weight: 400
+  border-radius: 0
+
+.woocommerce
+  input.button.alt, #respond input#submit, a.button, button.button, input.button
+    font-weight: 400
+    border-radius: 0
+  #respond input#submit.alt
+    &.disabled, &:disabled, &[disabled]:disabled
+      color: inherit
+      opacity: .5
+      border-radius: 0
+      &:hover
+        color: inherit
+        opacity: .5
+        border-radius: 0
+  a.button.alt
+    &.disabled, &:disabled, &[disabled]:disabled
+      color: inherit
+      opacity: .5
+      border-radius: 0
+      &:hover
+        color: inherit
+        opacity: .5
+        border-radius: 0
+  button.button.alt
+    &.disabled, &:disabled, &[disabled]:disabled
+      color: inherit
+      opacity: .5
+      border-radius: 0
+      &:hover
+        color: inherit
+        opacity: .5
+        border-radius: 0
+  input.button.alt
+    &.disabled, &:disabled, &[disabled]:disabled
+      color: inherit
+      opacity: .5
+      border-radius: 0
+      &:hover
+        color: inherit
+        opacity: .5
+        border-radius: 0
+  div.product .woocommerce-tabs ul.tabs li
+    &::after, &::before
+      display: none
+    &.active
+      background: transparent
+    margin: 0
+    border-radius: 0
+    a
+      font-weight: 400
+  #comments
+    /* woocommerce reviews
+    padding-top: 0
+  #reviews #comments ol.commentlist li
+    .comment-text
+      border-radius: 0
+    img.avatar
+      width: auto
+    .comment-text
+      margin-left: 80px
+  &.fluida-comment-placeholder #respond label
+    /* show woocommerce form lables
+    display: block
+  ul.products li.product
+    text-align: center
+
+.woocommerce-page ul.products li.product
+  text-align: center
+
+.woocommerce
+  .products .star-rating
+    text-align: center
+    margin: 0 auto .5em
+  ul.products li.product
+    .price
+      font-size: 1em
+    .button
+      margin-top: .5em
+  #content table.cart td.actions .input-text, table.cart td.actions .input-text
+    width: auto
+    padding: 0.618em 1em
+
+.woocommerce-page
+  #content table.cart td.actions .input-text, table.cart td.actions .input-text
+    width: auto
+    padding: 0.618em 1em
+
+.woocommerce .quantity .qty
+  padding: .7em .4em
+
+/* Team Members
+
+.tmm .tmm_member
+  .tmm_photo
+    border-radius: 20px !important
+  .tmm_textblock
+    padding: 10px 25px
+
+/* Jetpack Portfolio shortcode in widget
+
+.widget-container h2.portfolio-entry-title
+  font-size: 1.2em
+
+/* Safari fixed cover background images
+
+body.safari, .safari .lp-text
+  background-attachment: scroll
+  background-position: top center !important
+
+/* IE 10-11 shaky fixed cover background images
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+  body, .lp-text
+    background-attachment: scroll !important
+    background-position: top center !important
+
+/* Shortcodes
+
+/*--------------------------------------------------------------
+ *	# RESPONSIVENESS
+ *--------------------------------------------------------------
+
+body.mobile
+  -webkit-text-size-adjust: 100%
+  .main
+    min-height: 0
+
+/* Iphone browser fix
+
+@media (min-width: 1152px)
+  body.admin-bar.fluida-fixed-menu #site-header-main
+    margin-top: 32px
+
+.overviewmovie
+  top: -120
+  position: relative
+
+@media (max-width: 1152px)
+  .overviewmovie
+    top: 0
+    position: relative
+  body
+    font-size: .95em
+    margin-top: 0
+    /* removed fixed header menu
+  .cryout
+    #container[class*="three-"]
+      .main, #primary, #secondary
+        width: 100%
+        margin: 0 0 1.5em
+      .sidey
+        .widget-container
+          width: 40%
+          margin: 0 5% 1.5em
+          float: left
+        section.widget-container:nth-of-type(2n+1)
+          clear: both
+    #primary + #secondary
+      padding-left: 2em
+    #header-image-main
+      margin-top: 0
+  #breadcrumbs-container.cryout[class*="three-"] #breadcrumbs
+    width: 100%
+    margin: 0
+
+@media (max-width: 1024px)
+  .cryout
+    #container[class*="two-"]
+      .main
+        width: 100%
+        margin: 0 0 1.5em
+      #primary, #secondary
+        width: 100%
+        margin: 0 0 1.5em
+        float: none
+        clear: both
+      #primary::after, #secondary::after
+        clear: both
+        content: ""
+        display: block
+      .sidey .widget-container
+        width: 40%
+        margin: 0 5% 1.5em
+        float: left
+    #colophon-inside:not(.footer-one) .widget-container
+      width: 40%
+      margin: 0 5% 1.5em
+      float: left
+      &::after
+        display: block
+      &:nth-child(2n)::after
+        display: none
+      &:nth-child(2n+1)
+        clear: both
+  #colophon-inside.footer-all
+    display: block
+  .fluida-magazine-three .cryout #content-masonry article.hentry
+    width: 48%
+  #breadcrumbs-container.cryout[class*="two-"] #breadcrumbs
+    width: 100%
+    margin: 0
+
+@media (max-width: 1000px)
+  body
+    font-size: .90em
+  .fluida-magazine-three .cryout #content-masonry article.hentry, .fluida-magazine-two .cryout #content-masonry article.hentry
+    width: 98%
+  .cryout
+    #site-title a span
+      padding-right: 0
+    #footer-inside
+      > *
+        display: table
+        float: none
+        text-align: center !important
+        margin: 1.5em auto
+        width: 100%
+      #toTop
+        position: absolute
+        bottom: 0
+        right: 0
+        left: 0
+        width: 90%
+        display: block
+        margin: 0 auto
+      nav
+        width: auto
+    #nav-toggle, #site-header-main-inside
+      display: block
+  #masthead.cryout #access
+    display: none
+  .cryout
+    #sheader
+      margin-left: 0
+      margin-right: 2em
+    #branding
+      margin-right: 3em
+
+@media (max-width: 782px)
+  body.admin-bar nav#mobile-menu
+    top: 46px
+
+@media (min-width: 782px)
+  body.admin-bar nav#mobile-menu
+    top: 32px
+
+@media (max-width: 640px)
+  body
+    /*font-size: .85em;
+  .cryout
+    #container
+      &[class*="three-"]
+        #primary, #secondary, .sidey .widget-container
+          width: 100%
+          margin: 0 0 1.5em
+          clear: both
+      &[class*="two-"] .sidey .widget-container
+        width: 100%
+        margin: 0 0 1.5em
+        clear: both
+    #colophon #colophon-inside .widget-container
+      width: 100%
+      margin: 0 0 1.5em
+      clear: both
+      &::after
+        display: none
+    #sheader
+      display: none
+    .socials a
+      font-size: 1.2em
+      margin: 0 .15em
+  .footermenu ul
+    display: table
+    li
+      display: inline-block
+      float: none
+  .related-posts li
+    display: inline
+    float: left
+    width: 100%
+    margin: 0 0 2em
+
+/* ## LP Responsiveness
+
+.fluida-landing-page
+  .lp-blocks-inside, .lp-boxes-inside, .lp-text-inside, .lp-posts-inside, .lp-page-inside, .lp-section-header, .content-widget, .lp-portfolio-inside
+    padding-left: 3em
+    padding-right: 3em
+
+@media (max-width: 1140px)
+  .searchform input[type="search"]
+    z-index: 10000
+    right: 0
+    top: 0
+    position: fixed
+    width: 100%
+    /* height: 16%;
+    -webkit-transition: color .3s ease
+    transition: color 0.3s ease
+  .fluida-landing-page
+    .lp-blocks-inside, .lp-boxes-inside, .lp-text-inside, .lp-posts-inside, .lp-page-inside, .lp-section-header, .content-widget, .lp-portfolio-inside
+      padding-left: 1em
+      padding-right: 1em
+
+@media (max-width: 960px)
+  .searchform input[type="search"]
+    z-index: 10000
+    right: 0
+    top: 0
+    position: fixed
+    width: 100%
+    /* height: 16%;
+    -webkit-transition: color .3s ease
+    transition: color 0.3s ease
+  .lp-section-header
+    .lp-section-title, .lp-section-desc
+      max-width: 100%
+  .lp-blocks
+    .lp-block
+      margin-top: 1em
+      margin-bottom: 1em
+    &.lp-blocks-rows-4 .lp-block, &.lp-blocks-rows-3 .lp-block
+      width: 49%
+      margin-right: 2%
+    &.lp-blocks-rows-4 .lp-block:nth-child(2n), &.lp-blocks-rows-3 .lp-block:nth-child(2n)
+      margin-right: 0
+    &.lp-blocks-rows-4 .lp-block:nth-child(2n+1), &.lp-blocks-rows-3 .lp-block:nth-child(2n+1)
+      clear: both
+  .lp-boxes
+    &.lp-boxes-rows-4 .lp-box, &.lp-boxes-rows-3 .lp-box
+      width: 50%
+    &.lp-boxes-rows-4 .lp-boxes-margins .lp-box, &.lp-boxes-rows-3 .lp-boxes-margins .lp-box
+      width: 49%
+      margin-bottom: 2em
+      margin-right: 2%
+    &.lp-boxes-rows-4 .lp-boxes-margins .lp-box:nth-child(2n), &.lp-boxes-rows-3 .lp-boxes-margins .lp-box:nth-child(2n)
+      margin-right: 0
+    &.lp-boxes-rows-4 .lp-box:nth-child(4n+1), &.lp-boxes-rows-3 .lp-box:nth-child(3n+1)
+      clear: none
+    &.lp-boxes-rows-4 .lp-box:nth-child(2n+1), &.lp-boxes-rows-3 .lp-box:nth-child(2n+1)
+      clear: both
+  .lp-portfolio
+    &.lp-portfolio-rows-6 .lp-port, &.lp-portfolio-rows-5 .lp-port, &.lp-portfolio-rows-4 .lp-port, &.lp-portfolio-rows-3 .lp-port, &.lp-portfolio-rows-2 .lp-port
+      width: 50%
+
+@media (max-width: 720px)
+  .searchform input[type="search"]
+    z-index: 10000
+    right: 0
+    top: 0
+    position: fixed
+    width: 100%
+    /* height: 16%;
+    -webkit-transition: color .3s ease
+    transition: color 0.3s ease
+  .lp-staticslider
+    max-height: 70vmax
+    .staticslider-caption
+      left: 5%
+      right: 5%
+      font-size: 0.9em
+  .seriousslider.seriousslider-theme .seriousslider-caption
+    left: 5%
+    right: 5%
+    font-size: 0.9em
+  .lp-staticslider .staticslider-caption-title, .seriousslider.seriousslider-theme .seriousslider-caption-title
+    line-height: 1.2
+    letter-spacing: 0
+  .lp-staticslider
+    .staticslider-sep
+      height: 1px
+    .staticslider-caption-text
+      line-height: 1.3
+  .seriousslider.seriousslider-theme .seriousslider-caption-text
+    line-height: 1.3
+  .lp-staticslider .lp-staticslider-image
+    max-height: 70vmax
+    position: relative
+    left: 50%
+    -webkit-transform: translateX(-50%)
+    transform: translateX(-50%)
+    max-width: none
+    width: auto
+
+@media (max-width: 880px)
+  img
+    height: 25%
+    /* Make sure images are scaled correctly.
+    max-width: 100%
+    /* Adhere to container width.
+    border: 0
+    position: relative
+  .searchform input[type="search"]
+    z-index: 10000
+    right: 0
+    top: 0
+    position: fixed
+    width: 100%
+    /* height: 16%;
+    -webkit-transition: color .3s ease
+    transition: color 0.3s ease
+  a#logo > img
+    position: absolute
+    left: 0
+    min-height: 72%
+    padding: 2%
+    top: 0
+    width: 45%
+
+#cryout_ajax_more_trigger
+  width: 100%
+
+@media (max-width: 480px)
+  .searchform input[type="search"]
+    z-index: 10000
+    right: 0
+    top: 0
+    position: fixed
+    width: 100%
+    /* height: 16%;
+    -webkit-transition: color .3s ease
+    transition: color 0.3s ease
+  .lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption
+    font-size: 0.8em
+  .lp-staticslider .staticslider-caption-title, .seriousslider.seriousslider-theme .seriousslider-caption-title
+    font-size: 2.5em
+  .lp-staticslider .staticslider-caption-text, .seriousslider.seriousslider-theme .seriousslider-caption-text
+    font-size: 1.25em
+  .lp-blocks
+    &.lp-blocks-rows-4 .lp-block, &.lp-blocks-rows-3 .lp-block, &.lp-blocks-rows-2 .lp-block
+      width: 100%
+      margin-top: 1.5em
+      margin-bottom: 1.5em
+  .lp-boxes
+    &.lp-boxes-rows-4 .lp-boxes-margins .lp-box, &.lp-boxes-rows-3 .lp-boxes-margins .lp-box, &.lp-boxes-rows-2 .lp-boxes-margins .lp-box
+      width: 100%
+      margin-right: 0
+      margin-bottom: 2em
+
+/*--------------------------------------------------------------
+ *	# PRINT STYLES
+ *--------------------------------------------------------------
+@media print
+  h1, h2, h3, h4, h5, h6, img, video, iframe, embed, .fluid-width-video-wrapper
+    page-break-before: avoid
+    page-break-after: avoid
+    page-break-inside: avoid
+  blockquote, table, pre
+    page-break-inside: avoid
+  ul, ol, dl
+    page-break-before: avoid
+  q
+    quotes: none
+    &:before
+      content: ""
+    &:after
+      content: ""
+      content: " (" attr(cite) ")"
+  blockquote
+    font-size: 12pt
+    font-style: italic
+  img
+    border: 0
+  #header-image-main, header #access, .sidey, footer#footer, span.edit-link, #respond, #nav-below, .comment-navigation, #author-link, #breadcrumbs-container, a.continue-reading-link, .comment .reply, #cryout_ajax_more_trigger, body .cryout #nav-toggle
+    display: none
+  html, body
+    font-size: 11pt
+    color: #000
+  #masthead.cryout
+    #site-header-main
+      position: static
+      margin-top: 0
+      height: auto
+      border: 0
+      box-shadow: none
+    #branding
+      height: auto
+    #site-text
+      transform: none
+      text-decoration: underline
+  #site-title
+    span a span:first-child
+      background: transparent
+      width: auto
+      margin: 0
+      padding: 0
+      font-weight: 400
+      color: inherit
+    a span
+      color: inherit
+      font-weight: 400
+      padding: 0
+      text-decoration: underline
+  #container #main
+    width: 100%
+    min-height: auto
+  .cryout
+    article.hentry .article-inner, .pad-container, #site-header-main-inside
+      padding: 0 !important
+  .main
+    article.hentry, .pad-container, .page-numbers:not(.dots)
+      border: 0 !important
+      box-shadow: none !important
+    #content-masonry
+      height: auto !important
+      margin: 0
+      article.hentry
+        display: block
+        float: none
+        margin: 0
+        clear: both
+        position: static !important
+        width: 100%
+        padding: 0
+        margin-bottom: 20pt
+  .animated-article
+    opacity: 1 !important
+    transform: none !important
+    animation: none !important
+  .cryout
+    a
+      text-decoration: underline
+    p a:after
+      content: " (" attr(href) ")"
+      font-size: 80%
+      word-wrap: break-word
+    .entry-title, #reply-title
+      font-size: 160%
+  .lp-text
+    background: #FFF
+    color: #000
+
+#fade
+  display: none
+  position: fixed
+  top: 0%
+  left: 0%
+  width: 100%
+  height: 100%
+  background-color: black
+  z-index: 1001
+  -moz-opacity: 0.8
+  opacity: .80
+  filter: alpha(opacity = 80)
+
+#light
+  display: none
+  position: absolute
+  top: 20%
+  min-width: 80%
+  left: 7%
+  /* max-width: 80%;
+  /* max-height: 65%;
+  /* background: #FFF;
+  z-index: 1002
+  overflow: visible
+
+#boxclose
+  float: right
+  cursor: pointer
+  color: #fff
+  border: 1px solid #AEAEAE
+  border-radius: 3px
+  background: #222222
+  font-size: 31px
+  font-weight: bold
+  display: inline-block
+  line-height: 0px
+  padding: 11px 3px
+  position: absolute
+  right: 2px
+  top: 2px
+  z-index: 1002
+  opacity: 0.9
+
+.boxclose:before
+  content: "×"
+
+#fade:hover ~ #boxclose, .test:hover ~ .test2
+  display: none
+
+#fade
+  display: none
+  position: fixed
+  top: 0%
+  left: 0%
+  width: 100%
+  height: 100%
+  background-color: black
+  z-index: 1001
+  -moz-opacity: 0.8
+  opacity: .80
+  filter: alpha(opacity = 80)
+
+#boxclose
+  float: right
+  cursor: pointer
+  color: #fff
+  border: 1px solid #AEAEAE
+  border-radius: 3px
+  background: #222222
+  font-size: 31px
+  font-weight: bold
+  display: inline-block
+  line-height: 0px
+  padding: 11px 3px
+  position: absolute
+  right: 2px
+  top: 2px
+  z-index: 1002
+  opacity: 0.9
+
+.boxclose:before
+  content: "×"
+
+#fade:hover ~ #boxclose, .test:hover ~ .test2
+  display: none
+
+#movieVideo
+  min-width: 100%
+  min-height: 100%
+
+.pagination
+  > li > a
+    all: initial
+  li
+    color: black
+    float: left
+    text-decoration: none
+    text-align: center
+    transition: background-color .3s
+    border: 1px solid #ddd
+    font-size: 25px
+    a
+      font-size: 18px
+
+/* First make sure the video thumbnail images are responsive.
+
+.headtitle
+  color: white
+  display: inline-block
+  position: absolute
+  top: 17%
+  overflow: hidden
+  padding: 0 12%
+
+/* 
+ *This is the starting grid for each video with thumbnails 4 across for the largest screen size.
+ *It's important to use percentages or there may be gaps on the right side of the page.
+
+.video
+  background: #fff
+  padding-bottom: 20px
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)
+  width: 31.33%
+  /* Thumbnails 4 across
+  margin: 1%
+  float: left
+  figure
+    height: 80%
+    overflow: hidden
+    a
+      display: block
+      margin: 0
+      padding: 0
+      border: none
+      line-height: 0
+
+/* 
+ *These keep the height of each video thumbnail consistent between YouTube and Vimeo.
+ *Each can have thumbnail sizes that vary by 1px and are likely break your layout.
+
+/* Media Queries - This is the responsive grid.
+
+@media (max-width: 600px)
+  .pagination li
+    color: black
+    float: left
+    padding: 8px
+    text-decoration: none
+  #statuscomplete
+    top: 40%
+    /* padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF
+    /* margin: 0 0.3em 0.3em 0;
+    left: 50%
+    /* overflow: hidden;
+    position: absolute
+    padding: 0.5em
+  .video
+    width: 96%
+    /* Single column view.
+    float: none
+    display: block
+  body
+    padding: 0 4%
+  #movie1 img
+    width: 35%
+    top: -50px
+  .headtitle
+    color: white
+    display: inline-block
+    position: absolute
+    top: 15%
+    line-height: 1.2em
+    font-size: 15
+    overflow: hidden
+    /* padding: 0 12%;
+  #bvideo #bimg
+    height: 12%
+    width: 10%
+    top: 15%
+    left: 30%
+    padding: 0.5em 3em
+    position: absolute
+
+#statuscomplete
+  top: 40%
+  /* padding: 0.5em 3em;
+  border: 0.16em solid #FFFFFF
+  /* margin: 0 0.3em 0.3em 0;
+  left: 50%
+  /* overflow: hidden;
+  position: absolute
+  padding: 0.5em
+
+/* These are my preferred rollover styles.
+
+.video img
+  width: 100%
+  opacity: 1
+  &:hover, &:active, &:focus
+    opacity: 0.75
+
+/* FIN!
