@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "grunt-sass": "^3.0.2",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
